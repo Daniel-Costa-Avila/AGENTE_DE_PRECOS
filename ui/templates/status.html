@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Status - Price Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+
+<div class="container">
+    <h1>Status do Job</h1>
+
+    <p><b>ID:</b> {{ job.job_id }}</p>
+    <p><b>Status:</b> {{ job.status }}</p>
+    {% if job.error %}
+        <p><b>Erro:</b> {{ job.error }}</p>
+    {% endif %}
+
+    {% if job.status == "DONE" %}
+        <a href="/results/{{ job.job_id }}">Ver resultados</a><br><br>
+        <a href="/download/{{ job.job_id }}">Baixar output</a><br><br>
+    {% endif %}
+
+    <a href="/">Voltar</a>
+</div>
+
+</body>
+</html>

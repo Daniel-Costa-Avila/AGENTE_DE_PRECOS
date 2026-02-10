@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados — Price Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Resultados</h1>
+
+    <table>
+        <tr>
+            {% for h in headers %}
+                <th>{{ h }}</th>
+            {% endfor %}
+        </tr>
+
+        {% for row in rows %}
+        <tr>
+            {% for cell in row %}
+                <td>{{ cell if cell else "—" }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="/download/{{ job_id }}">⬇️ Baixar output.xlsx</a><br><br>
+    <a href="/status/{{ job_id }}">Voltar ao status</a><br><br>
+    <a href="/">Voltar ao início</a>
+
+    <div class="footer">
+        Dados exibidos diretamente do output.xlsx
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1526 @@
+{
+  "props": {
+    "pageProps": {
+      "ctx": {
+        "req": {
+          "url": "/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/p/dde864kefe/co/ccbc/",
+          "method": "GET",
+          "headers": {
+            "x-forwarded-for": "186.237.222.195,172.31.253.2",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+            "cookie": "toggle_show_luiza_installment_plan=true"
+          }
+        }
+      },
+      "data": {
+        "userInfo": {
+          "isLogged": false,
+          "tempId": ""
+        },
+        "userLocation": {},
+        "brandsQueryVariables": {
+          "limit": 100,
+          "offset": 0
+        },
+        "platform": {
+          "baseUrl": "https://www.magazineluiza.com.br",
+          "cart": {
+            "host": "https://sacola.magazineluiza.com.br"
+          }
+        },
+        "allCategories": [
+          {
+            "label": "Ar e Ventilação",
+            "id": "AR",
+            "description": "Ar e Ventilação",
+            "meta": {
+              "canonical": "/ar-e-ventilacao/l/ar/",
+              "breadcrumbAlias": "Ar e Ventilação",
+              "description": "As melhores ofertas de ar condicionado, ventiladores e climatizadores estão aqui no Magazine Luiza! Corre pra aproveitar os melhores preços e condições!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">O ar-condicionado &eacute; o aparelho de </span><a href=\"https://www.magazineluiza.com.br/ar-e-ventilacao/l/ar/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">ar e ventila&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\">&nbsp; ideal pra deixar o ambiente mais agrad&aacute;vel e na temperatura certinha, viu? Ele conta com vers&otilde;es modernas frio ou quente-frio que mant&eacute;m a casa climatizada tamb&eacute;m no inverno, sabia? Pois &eacute;! Vem comigo que eu te ajudo a acertar em cheio na escolha!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Artesanato",
+            "id": "AM",
+            "description": "Artesanato",
+            "meta": {
+              "canonical": "/artesanato/l/am/",
+              "breadcrumbAlias": "Artesanato",
+              "description": "Artigos de Armarinhos, Artigos para festa e Produtos para Artesanato com os melhores preços você encontra aqui no Magazine Luiza! Clique e aproveite! ;)",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, o artesanato &eacute; uma t&eacute;cnica usada pra criar itens com as m&atilde;os. E o legal &eacute; que geralmente &eacute; indicado pra quem quer ter um novo passatempo pra quebrar a rotina ou tamb&eacute;m uma fonte de renda extra. Como d&aacute; pra fazer diferentes coisas com v&aacute;rios materiais, fica f&aacute;cil achar aquele que mais combina com voc&ecirc;. Quer saber os detalhes? Vem comigo que eu te mostro:</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Artigos para Festa",
+            "id": "AF",
+            "description": "Artigos para Festa",
+            "meta": {
+              "canonical": "/artigos-para-festa/l/af/",
+              "breadcrumbAlias": "Artigos para Festa",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, os artigos de festa s&atilde;o itens e acess&oacute;rios pra usar na </span><a href=\"https://www.magazineluiza.com.br/decoracao/l/de/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">decora&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\">, viu? Pra isso, voc&ecirc; encontra diferentes op&ccedil;&otilde;es como </span><a href=\"https://www.magazineluiza.com.br/baloes-e-acessorios/artigos-para-festa/s/af/balo/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">bal&otilde;es</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/aderecos-para-festa/artigos-para-festa/s/af/adpf/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">adere&ccedil;os</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/copo/artigos-para-festa/s/af/cpda/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">copos</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/prato-descartavel/artigos-para-festa/s/af/ptds/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">pratos</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/recipientes-talheres-descartaveis/artigos-para-festa/s/af/rtde/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">talheres</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/lembrancinhas/artigos-para-festa/s/af/lbrc/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">lembrancinhas</span></a><span style=\"font-size: 12pt;\"> e por a&iacute; vai. E o legal &eacute; que d&aacute; pra escolher o que mais combina com o tema que escolheu. Quer saber detalhes? Vem comigo que eu te conto!</span></p>"
+            }
+          },
+          {
+            "label": "Áudio",
+            "id": "EA",
+            "description": "Áudio",
+            "meta": {
+              "canonical": "/audio/l/ea/",
+              "breadcrumbAlias": "Áudio",
+              "description": "Home Theater, Micro System e muito mais com as melhores ofertas, você compra aqui no Magazine Luiza! Vem conferir, vem!",
+              "seoBlock": "<p><strong id=\"docs-internal-guid-5d0fa939-7fff-48eb-6fe9-b769275ecdfb\"></strong><span style=\"font-size: 12pt;\">Gente, os equipamentos de &aacute;udio s&atilde;o aparelhos ideais pra quem ama ouvir m&uacute;sica! O bom &eacute; que tem v&aacute;rias op&ccedil;&otilde;es incr&iacute;veis pra aproveitar em grupo ou sem companhia, desde as cl&aacute;ssicas at&eacute; as mais modernas. Demais! Quer conhecer alguns dos modelos e ver dicas pra escolher? Vem comigo:&nbsp;</span></p>"
+            }
+          },
+          {
+            "label": "Automotivo",
+            "id": "AU",
+            "description": "Automotivo",
+            "meta": {
+              "canonical": "/automotivo/l/au/",
+              "breadcrumbAlias": "Automotivo",
+              "description": "Encontre Pneus, Som automotivo, Kit multimídia, Acessórios para Carros, Motos e Caminhões com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, ficar por dentro do </span><a href=\"https://www.magazineluiza.com.br/motor-automotivo/automotivo/s/au/mtau/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">setor automotivo</span></a><span style=\"font-size: 12pt;\"> &eacute; uma seguran&ccedil;a maior pra quem dirige, j&aacute; que, al&eacute;m de se atualizar, esse &eacute; um jeito de conhecer seu ve&iacute;culo e identificar quando algo t&aacute; estranho nele, n&eacute;? Agora, como esse assunto costuma ser bem t&eacute;cnico, &agrave;s vezes &eacute; um desafio aprender sobre. Mas, vem comigo que eu vou te ajudar de um jeito simples a tirar suas principais d&uacute;vidas sobre autom&oacute;veis!</span></p>"
+            }
+          },
+          {
+            "label": "Bebês",
+            "id": "BB",
+            "description": "Bebê",
+            "meta": {
+              "canonical": "/bebe/l/bb/",
+              "breadcrumbAlias": "Bebê",
+              "description": "Os produtos que o seu bebê precisa estão aqui no Magazine Luiza! Tudo o que você precisa para a chegada so seu bebê com os melhores preços, é aqui!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, quem tem </span><a href=\"https://www.magazineluiza.com.br/bebe/l/bb/\"><span style=\"color: #1155cc; font-size: 12pt;\">beb&ecirc;</span></a><span style=\"font-size: 12pt;\"> em casa ou t&aacute; esperando pela chegada de um, sabe que &eacute; muito importante se preparar pra que a crian&ccedil;a fique confort&aacute;vel e segura, n&eacute;? Por isso, &eacute; fundamental ter a postos a </span><a href=\"https://www.magazineluiza.com.br/bolsa-maternidade/bebe/s/bb/bode/\"><span style=\"color: #1155cc; font-size: 12pt;\">bolsa de maternidade</span></a><span style=\"font-size: 12pt;\"> e organizar o </span><a href=\"https://www.magazineluiza.com.br/quarto-de-bebe/moveis/s/mo/qdbb/\"><span style=\"color: #1155cc; font-size: 12pt;\">quarto de beb&ecirc;</span></a><span style=\"font-size: 12pt;\"> com um </span><a href=\"https://www.magazineluiza.com.br/enxoval-do-bebe/bebe/s/bb/exbb/\"><span style=\"color: #1155cc; font-size: 12pt;\">enxoval de beb&ecirc;</span></a><span style=\"font-size: 12pt;\"> completinho! Mas o que realmente n&atilde;o pode faltar? Vem comigo pra saber detalhes:</span></p>"
+            }
+          },
+          {
+            "label": "Beleza & Perfumaria",
+            "id": "PF",
+            "description": "Beleza & Perfumaria",
+            "meta": {
+              "canonical": "/beleza-e-perfumaria/l/pf/",
+              "breadcrumbAlias": "Beleza & Perfumaria",
+              "description": "Perfumes nacionais, importados masculinos e femininos com os melhores preços você encontra no Magazine Luiza! Venha escolher o seu aqui! ;)",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, os itens de beleza e perfumaria s&atilde;o &oacute;timos pra quem quer ficar com o look em dia? Tem v&aacute;rias vers&otilde;es, como produto para cabelo, pra cuidados com a pele, shampoo e muito mais. Quer umas dicas pra acertar na escolha dos ideais pra cada situa&ccedil;&atilde;o? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Bem-estar Sexual",
+            "id": "BS",
+            "description": "Bem-estar Sexual",
+            "meta": {
+              "canonical": "",
+              "breadcrumbAlias": "Bem-estar Sexual",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Olha, os produtos er&oacute;ticos s&atilde;o aliados incr&iacute;veis do </span><a href=\"https://www.magazineluiza.com.br/bem-estar-sexual/l/bs/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">bem-estar sexual</span></a><span style=\"font-size: 12pt;\">, ideais pra dar aquela apimentada na rela&ccedil;&atilde;o ou at&eacute; mesmo pra se conhecer melhor, viu? O legal &eacute; que d&aacute; pra encontrar v&aacute;rios itens, como, por exemplo, </span><a href=\"https://www.magazineluiza.com.br/lubrificante-intimo/saude-e-cuidados-pessoais/s/cp/gell/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">lubrificante</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/plugs/bem-estar-sexual/s/bs/plug/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">plug</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/vibrador/bem-estar-sexual/s/bs/vibr/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">vibrador</span></a><span style=\"font-size: 12pt;\"> e muito mais pra explorar fantasias e melhorar a intimidade. Quer saber detalhes sobre esses </span><a href=\"https://www.magazineluiza.com.br/acessorios/bem-estar-sexual/s/bs/abss/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">acess&oacute;rios</span></a><span style=\"font-size: 12pt;\"> er&oacute;ticos? Ent&atilde;o, vem comigo!</span></p>"
+            }
+          },
+          {
+            "label": "Brinquedos",
+            "id": "BR",
+            "description": "Brinquedos",
+            "meta": {
+              "canonical": "/brinquedos/l/br/",
+              "breadcrumbAlias": "Brinquedos",
+              "description": "Descubra brinquedos educativos e divertidos para todas as idades. Temos brinquedos para bebês, crianças e até brinquedos colecionáveis",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, as </span><a href=\"https://www.magazineluiza.com.br/bonecas-e-acessorios/brinquedos/s/br/babr/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">bonecas</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/carrinhos-e-cia/brinquedos/s/br/ceci/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">carrinhos</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/bolas/esporte-e-lazer/s/es/blss/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">bolas</span></a><span style=\"font-size: 12pt;\"> s&atilde;o alguns dos brinquedos que fazem a alegria da crian&ccedil;ada, viu? Al&eacute;m de proporcionarem v&aacute;rios momentos de divers&atilde;o, tamb&eacute;m t&ecirc;m modelos capazes de ajudar no desenvolvimento dos pequenos. Quer saber mais? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Cama, Mesa e Banho",
+            "id": "CM",
+            "description": "Cama, Mesa e Banho",
+            "meta": {
+              "canonical": "/cama-mesa-e-banho/l/cm/",
+              "breadcrumbAlias": "Cama, Mesa e Banho",
+              "description": "Encontre Cortinas, Persianas, Capa para colchões, Travesseiros com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Quer caprichar nos itens de cama, mesa e banho da sua casa? Ent&atilde;o, a dica &eacute; apostar em pe&ccedil;as como </span><a href=\"https://www.magazineluiza.com.br/almofadas-e-capas-de-almofada/cama-mesa-e-banho/s/cm/ctal/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">almofadas</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/almofadas-e-capas-de-almofada/cama-mesa-e-banho/s/cm/ctal/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">capas</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/cortinas/cama-mesa-e-banho/s/cm/cmco/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">cortina</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/almofadas-e-capas-de-almofada/cama-mesa-e-banho/s/cm/ctal/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">mantas</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/caminho-de-mesa/cama-mesa-e-banho/s/cm/cmme/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">caminho de mesa</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/pano-de-prato/cama-mesa-e-banho/s/cm/cmpp/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">pano de prato</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/jogo-de-cama/cama-mesa-e-banho/s/cm/cjct/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">jogo de cama</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/tapetes/cama-mesa-e-banho/s/cm/ctap/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">tapete</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/jogo-de-toalhas-jogo-de-banho/cama-mesa-e-banho/s/cm/joto/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">jogo de toalhas</span></a><span style=\"font-size: 12pt;\"> e muito mais! Al&eacute;m disso, vale a pena dar um toque final com um aroma incr&iacute;vel usando </span><a href=\"https://www.magazineluiza.com.br/fragancia-para-cama-e-ambiente/cama-mesa-e-banho/s/cm/fgca/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">perfume para cama</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/fragancia-para-cama-e-ambiente/cama-mesa-e-banho/s/cm/fgca/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">perfume para ambiente</span></a><span style=\"font-size: 12pt;\">. Quer pegar umas dicas? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Câmeras e Drones",
+            "id": "CF",
+            "description": "Câmeras e Drones",
+            "meta": {
+              "canonical": "/cameras-e-drones/l/cf/",
+              "breadcrumbAlias": "Câmeras e Drones",
+              "description": "Câmeras esportivas, profissionais e aquáticas é aqui! Aproveite as melhores marcas, preços e condições aqui no Magazine Luiza!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gosta ou trabalha com fotografias e capta&ccedil;&atilde;o de imagens? Ent&atilde;o, as </span><a href=\"https://www.magazineluiza.com.br/cameras-e-filmadoras/cameras-e-drones/s/cf/cmfd/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">c&acirc;meras</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/drone/cameras-e-drones/s/cf/drcm/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">drones</span></a><span style=\"font-size: 12pt;\"> s&atilde;o a pedida certa pra voc&ecirc; caprichar no registro desses momentos! O bacana &eacute; que d&aacute; pra encontrar modelos muitos bons de </span><a href=\"https://www.magazineluiza.com.br/cameras-de-acao-gopro/cameras-e-drones/s/cf/cagp/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">c&acirc;mera de a&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/cameras-e-filmadoras/cameras-e-drones/s/cf/cmfd/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">c&acirc;mera fotogr&aacute;fica,</span></a><span style=\"font-size: 12pt;\"> </span><a href=\"https://www.magazineluiza.com.br/filmadora/cameras-e-drones/s/cf/cffi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">filmadora</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/drone/cameras-e-drones/s/cf/drcm/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">drone</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/impressora-fotografica/informatica/s/in/impf/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">impressora fotogr&aacute;fica</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/mini-estudio-fotografico/cameras-e-drones/s/cf/mnef/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">mini est&uacute;dio fotogr&aacute;fico</span></a><span style=\"font-size: 12pt;\"> e at&eacute; a t&atilde;o em alta </span><a href=\"https://www.magazineluiza.com.br/camera-polaroid/cameras-e-drones/s/cf/cint/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">c&acirc;mera instant&acirc;nea</span></a><span style=\"font-size: 12pt;\">. Quer saber mais sobre isso? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Casa e Construção",
+            "id": "CJ",
+            "description": "Casa e Construção",
+            "meta": {
+              "canonical": "/casa-e-construcao/l/cj/",
+              "breadcrumbAlias": "Casa e Construção",
+              "description": "Lavadora de Alta Pressão, Churrasqueiras, Móveis para Jardim e artigos para Jardinagem com os melhores preços você encontra aqui no Magazine Luiza!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, blocos, cimento, pisos, canos, arm&aacute;rios, chuveiros s&atilde;o s&oacute; alguns dos materiais de casa e constru&ccedil;&atilde;o que voc&ecirc; precisa buscar pra deixar a sua casa do jeitinho que quer. Agora, como escolher cada um pra arrasar nos principais espa&ccedil;os, sejam internos ou externos? Se precisar de algumas dicas, vem comigo que eu te ajudo:</span></p>"
+            }
+          },
+          {
+            "label": "Casa Inteligente",
+            "id": "CI",
+            "description": "Casa Inteligente",
+            "meta": {
+              "canonical": "/casa-inteligente/l/ci/",
+              "breadcrumbAlias": "Casa Inteligente",
+              "description": "",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">A casa inteligente &eacute; um jeito &oacute;timo de integrar o</span><a href=\"https://www.magazineluiza.com.br/assistente-virtual/casa-inteligente/s/ci/avir/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\"> assistente virtual</span></a><span style=\"font-size: 12pt;\"> a um mont&atilde;o de aparelhos pra executar tarefas, sabia? Pois &eacute;! Voc&ecirc; pode incluir diferentes tipos de equipamentos, incluindo os de </span><a href=\"https://www.magazineluiza.com.br/seguranca/casa-inteligente/s/ci/segi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">seguran&ccedil;a</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/eletrodomesticos/l/ed/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">eletrodom&eacute;sticos</span></a><span style=\"font-size: 12pt;\"> e at&eacute; mesmo sistemas de </span><a href=\"https://www.magazineluiza.com.br/eletrica/casa-inteligente/s/ci/pdti/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">el&eacute;trica</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/iluminacao/casa-inteligente/s/ci/ptii/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">ilumina&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\">. Vem comigo que eu te explico!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Celulares e Smartphones",
+            "id": "TE",
+            "description": "Celulares e Smartphones",
+            "meta": {
+              "canonical": "/celulares-e-smartphones/l/te/",
+              "breadcrumbAlias": "Celulares e Smartphones",
+              "description": "Encontre celulares iPhone, Samsung e Xiaomi com descontos imperdíveis no Magalu. Compre agora e aproveite!",
+              "seoBlock": "<h2 dir=\"ltr\"><span style=\"font-size: 18pt; color: #b60cff;\">Smartphones e celulares</span></h2>\n<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, os smartphones e celulares t&atilde;o cada vez mais avan&ccedil;ados, viu? Isso porque combinam tecnologias de ponta que transformam o jeito como as pessoas interagem com o mundo, tornando tudo bem r&aacute;pido e inteligente. Tem modelos pra v&aacute;rios gostos e necessidades, desde os b&aacute;sicos at&eacute; os modernos. Ent&atilde;o se quiser ficar por dentro e encontrar op&ccedil;&otilde;es, vem comigo que eu te ajudo:</span></p>"
+            }
+          },
+          {
+            "label": "Colchões",
+            "id": "CO",
+            "description": "Colchões",
+            "meta": {
+              "canonical": "/colchoes/l/co/",
+              "breadcrumbAlias": "Colchões",
+              "description": "Encontre Colchões, Cama Box, Cabeceiras e Bases para cama com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, o colch&atilde;o &eacute; um item de cama essencial pra voc&ecirc; ter um bom descanso na hora de dormir, n&eacute;? Por isso, quando chega o momento de decidir por um novo, &eacute; importante ficar de olho em v&aacute;rios detalhes. Afinal, s&atilde;o muitos anos at&eacute; chegar a hora de escolher outro. Quer umas dicas bem &uacute;teis pra te ajudar? Vem comigo:</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Comércio e Indústria",
+            "id": "PI",
+            "description": "Comércio e Indústria",
+            "meta": {
+              "canonical": "/comercio-e-industria/l/pi/",
+              "breadcrumbAlias": "Comércio e Indústria",
+              "description": "Aqui você encontra a maior variedade de produtos industriais e comerciais. Cervejeiras, expositores e freezer com os melhores preços, é aqui!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Olha, d&aacute; pra encontrar diversos itens que facilitam o dia a dia do c</span><a href=\"https://www.magazineluiza.com.br/comercio-e-industria/l/pi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">om&eacute;rcio e ind&uacute;stria</span></a><span style=\"font-size: 12pt;\">, t&aacute;? Tem pra com&eacute;rcio ambulante, com&eacute;rcio varejista, pra </span><a href=\"https://www.magazineluiza.com.br/utensilios-e-limpeza/utilidades-domesticas/s/ud/udll/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">limpeza</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/organizacao-e-arrumacao/utilidades-domesticas/s/ud/ordu/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">organiza&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\"> e muito mais. A&iacute; sim! O interessante &eacute; que s&atilde;o aparelhos pra oferecer bem-estar aos colaboradores, como o </span><a href=\"https://www.magazineluiza.com.br/ventilador-comercial-industrial/ar-e-ventilacao/s/ar/avci/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">ventilador comercia</span></a><span style=\"font-size: 12pt;\">l e pra otimizar a produ&ccedil;&atilde;o, al&eacute;m de ajudar na distribui&ccedil;&atilde;o deles. Quer saber detalhes sobre alguns desses </span><a href=\"https://www.magazineluiza.com.br/equipamentos-para-cozinha-industrial/comercio-e-industria/s/pi/eqci/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">equipamentos</span></a><span style=\"font-size: 12pt;\">?</span></p>"
+            }
+          },
+          {
+            "label": "Cursos",
+            "id": "CR",
+            "description": "Cursos",
+            "meta": {
+              "canonical": "",
+              "breadcrumbAlias": "Cursos",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, tem v&aacute;rios cursos e forma&ccedil;&otilde;es bem legais e importantes pra fazer e se desenvolver, viu? Isso porque eles trazem treinamentos em &aacute;reas espec&iacute;ficas do conhecimento e ajudam a melhorar as habilidades, certifica&ccedil;&otilde;es e qualifica&ccedil;&otilde;es profissionais. E d&aacute; pra achar v&aacute;rias op&ccedil;&otilde;es pra escolher o que te atende melhor. Quer saber detalhes desses cursos? Vem comigo!</span></p>"
+            }
+          },
+          {
+            "label": "Decoração",
+            "id": "DE",
+            "description": "Decoração",
+            "meta": {
+              "canonical": "/decoracao/l/de/",
+              "breadcrumbAlias": "Decoração",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, uma decora&ccedil;&atilde;o bem legal em casa &eacute; &oacute;timo pra tornar o ambiente mais aconchegante e charmoso, n&eacute;? D&aacute; pra usar a criatividade e deixar cada c&ocirc;modo do seu jeitinho, com aquele estilo que tem tudo a ver com a sua personalidade. Quer saber mais? Vem comigo que eu te mostro:</span></p>"
+            }
+          },
+          {
+            "label": "Eletrodomésticos",
+            "id": "ED",
+            "description": "Eletrodomésticos",
+            "meta": {
+              "canonical": "/eletrodomesticos/l/ed/",
+              "breadcrumbAlias": "Eletrodomésticos",
+              "description": "As melhores ofertas de eletrodomésticos que a sua casa precisa! Refrigeradores, freezers, fogões, micro-ondas, lavadoras e muito mais, é no Magazine Luiza!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, os </span><a href=\"https://www.magazineluiza.com.br/eletrodomesticos/l/ed/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">eletrodom&eacute;sticos</span></a><span style=\"font-size: 12pt;\"> s&atilde;o aparelhos el&eacute;tricos &oacute;timos pra quem precisa dar uma facilitada nas atividades dom&eacute;sticas do dia a dia, viu? T&ecirc;m itens como </span><a href=\"https://www.magazineluiza.com.br/busca/geladeira/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">geladeira</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/busca/fogao/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">fog&atilde;o</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/busca/microondas/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">microondas</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/busca/maquina+de+lavar+roupa/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&aacute;quina de lavar roupa</span></a><span style=\"font-size: 12pt;\"> e muitos outros. Quer saber mais sobre como esses dispositivos podem te ajudar na rotina? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Eletroportáteis",
+            "id": "EP",
+            "description": "Eletroportáteis",
+            "meta": {
+              "canonical": "/eletroportateis/l/ep/",
+              "breadcrumbAlias": "Eletroportáteis",
+              "description": "Encontre Fritadeiras, Liquidificadores, Cafeteiras e Aspiradores de Pó com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Os </span><a href=\"https://www.magazineluiza.com.br/eletroportateis/l/ep/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">eletroport&aacute;teis</span></a><span style=\"font-size: 12pt;\"> s&atilde;o equipamentos ideais pra otimizar a rotina, facilitar a limpeza de casa e o preparo das refei&ccedil;&otilde;es. Voc&ecirc; encontra uma variedade grande que descomplica o dia a dia, cozinha no autom&aacute;tico, sem fuma&ccedil;a e nem gordura. Al&eacute;m dos que rendem pratos criativos e del&iacute;cias da confeitaria. Vem conferir!</span></p>"
+            }
+          },
+          {
+            "label": "Esporte e Lazer",
+            "id": "ES",
+            "description": "Esporte e Lazer",
+            "meta": {
+              "canonical": "/esporte-e-lazer/l/es/",
+              "breadcrumbAlias": "Esporte e Lazer",
+              "description": "Esporte e Lazer em promoção, tem no Magalu! Os menores preços em Esporte e Lazer com entrega garantida você encontra aqui. Confira!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Olha, s&atilde;o tantos tipos de </span><a href=\"https://www.magazineluiza.com.br/elastico-para-exercicio/esporte-e-lazer/s/es/elex/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">exerc&iacute;cios</span></a><span style=\"font-size: 12pt;\"> que podem ser praticados como esporte e lazer, viu? Eles s&atilde;o ideais pra uma vida saud&aacute;vel e equilibrada e pra uma boa </span><a href=\"https://www.magazineluiza.com.br/saude-e-cuidados-pessoais/l/cp/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">sa&uacute;de</span></a><span style=\"font-size: 12pt;\"> f&iacute;sica e mental. A&iacute; sim! Tem </span><a href=\"https://www.magazineluiza.com.br/artes-marciais/esporte-e-lazer/s/es/elam/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">artes marciais</span></a><span style=\"font-size: 12pt;\">, atletismo, ciclismo, </span><a href=\"https://www.magazineluiza.com.br/tenis-de-corrida/esporte-e-lazer/s/es/tdcr/\"><span style=\"color: #1155cc; font-size: 12pt;\">corrida</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/produtos-de-natacao/esporte-e-lazer/s/es/elnt/\"><span style=\"color: #1155cc; font-size: 12pt;\">nata&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/produtos-de-tiro-esportivo/esporte-e-lazer/s/es/esti/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">tiro esportivo</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/baseball/esporte-e-lazer/s/es/bsll/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">baseball</span></a><span style=\"font-size: 12pt;\"> e muito mais. E d&aacute; pra achar v&aacute;rios itens pra melhorar a pr&aacute;tica deles, por exemplo, </span><a href=\"https://www.magazineluiza.com.br/vestuario-esportivo/esporte-e-lazer/s/es/vees/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">vestu&aacute;rios esportivos</span></a><span style=\"font-size: 12pt;\"> espec&iacute;ficos. Quer saber detalhes sobre alguns esportes? Vem comigo!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Ferramentas",
+            "id": "FS",
+            "description": "Ferramentas",
+            "meta": {
+              "canonical": "/ferramentas/l/fs/",
+              "breadcrumbAlias": "Ferramentas",
+              "description": "As melhores ofertas de ferramentas e produtos para segurança da sua casa você encontra aqui no Magazine Luiza! Vem conferir ;)",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, ferramentas s&atilde;o itens que d&atilde;o aquela forcinha na hora de reformar, montar, consertar e at&eacute; criar, seja numa oficina, em casa ou no com&eacute;rcio. O melhor &eacute; que d&aacute; pra achar v&aacute;rias op&ccedil;&otilde;es diferentes e com fun&ccedil;&otilde;es espec&iacute;ficas pra cada atividade. A&iacute; sim! Quer saber os detalhes? Vem comigo que eu te mostro:</span></p>"
+            }
+          },
+          {
+            "label": "Filmes e Séries",
+            "id": "FM",
+            "description": "Filmes e Séries",
+            "meta": {
+              "canonical": "/filmes-e-series/l/fm/",
+              "breadcrumbAlias": "Filmes e Séries",
+              "description": "",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">As s&eacute;ries e filmes s&atilde;o produ&ccedil;&otilde;es pra ver na </span><a href=\"https://www.magazineluiza.com.br/tvs/tv-e-video/s/et/tves/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">TV</span></a><span style=\"font-size: 12pt;\"> ou no </span><a href=\"https://www.magazineluiza.com.br/celulares-e-smartphones/l/te/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">smartphone</span></a><span style=\"font-size: 12pt;\"> pelo </span><a href=\"https://www.magazineluiza.com.br/streaming/tv-e-video/s/et/strm/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 12pt;\">streaming</span></a><span style=\"font-size: 12pt;\"> ou que acabaram de sair do cinema. Eles contam com muitos g&ecirc;neros pra todos os gostos, desde s&eacute;ries cl&aacute;ssicas at&eacute; hist&oacute;rias que misturam estilos variados em t&iacute;tulos premiados com Oscar e Emmy. E que tal ainda uma novelinha ou dorama? Vem comigo que eu te indico as s&eacute;ries e filmes que t&atilde;o em alta!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Flores e Jardim",
+            "id": "FJ",
+            "description": "Flores e Jardim",
+            "meta": {
+              "canonical": "",
+              "breadcrumbAlias": "Flores e Jardim",
+              "description": "",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, investir em itens de flores e jardim &eacute; uma ideia incr&iacute;vel pra dar um ar especial nos ambientes. O bom &eacute; que voc&ecirc; encontra tanto vers&otilde;es pra &aacute;reas externas quanto internas, e pode combinar os vegetais com a </span><a href=\"https://www.magazineluiza.com.br/decoracao/l/de/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">decora&ccedil;&atilde;o</span></a><span style=\"font-size: 12pt;\"> do lugar. A&iacute; sim! Vem comigo que eu te conto os detalhes:</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Games",
+            "id": "GA",
+            "description": "Games",
+            "meta": {
+              "canonical": "/games/l/ga/",
+              "breadcrumbAlias": "Games",
+              "description": "Encontre tudo sobre games e os lançamentos de jogos com os melhores preços. Opções de consoles Xbox, PlayStation, você encontra aqui no Magazine Luiza!",
+              "seoBlock": "<p>Gente, os games s&atilde;o &oacute;timas op&ccedil;&otilde;es pra entreter pessoas de v&aacute;rios gostos e idades diferentes. Com a evolu&ccedil;&atilde;o da tecnologia, os jogos eletr&ocirc;nicos se tornaram muito populares, j&aacute; que conseguem te transportar pra universos fant&aacute;sticos, complexos ou simplesmente proporcionar momentos de divers&atilde;o em grupo. Quer saber os detalhes e conhecer alguns games incr&iacute;veis? Vem comigo que eu te mostro:</p>"
+            }
+          },
+          {
+            "label": "Informática",
+            "id": "IN",
+            "description": "Informática",
+            "meta": {
+              "canonical": "/informatica/l/in/",
+              "breadcrumbAlias": "Informática",
+              "description": "Informática: Notebooks, PC e muito mais em promoção, tem no Magalu! Os menores preços em Informática com entrega garantida você encontra aqui. Confira!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Os itens de inform&aacute;tica s&atilde;o ideais pra trabalhar, jogar e se divertir, sabia? Pois &eacute;! Com eles, voc&ecirc; monta itens de rob&oacute;tica, uma esta&ccedil;&atilde;o de trabalho, servidor e at&eacute; um home-office completo pra arrasar no remoto ou mesmo no com&eacute;rcio. Vem comigo conhecer os detalhes!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Instrumentos Musicais",
+            "id": "IM",
+            "description": "Instrumentos Musicais",
+            "meta": {
+              "canonical": "/instrumentos-musicais/l/im/",
+              "breadcrumbAlias": "Instrumentos Musicais",
+              "description": "Ofertas em instrumentos musicais, as melhores condições e variedades você encontra aqui no Magazine Luiza! Venha conferir!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, os instrumentos musicais s&atilde;o equipamentos que ajudam a deixar o dia a dia muito mais bonito. Isso porque, com timbres &uacute;nicos, eles embalam as emo&ccedil;&otilde;es no cotidiano. Al&eacute;m disso, aprender a tocar um exercita bastante a mente, podendo melhorar a mem&oacute;ria e te tornar multitarefa. T&aacute; pensando em escolher um pra voc&ecirc;? Vem ver essas dicas que eu preparei:&nbsp; </span></p>"
+            }
+          },
+          {
+            "label": "Livros",
+            "id": "LI",
+            "description": "Livros",
+            "meta": {
+              "canonical": "/livros/l/li/",
+              "breadcrumbAlias": "Livros",
+              "description": "Livros Infantis, Autoajuda, Fantasia, Religião e Mapas com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p>Gente, os livros s&atilde;o publica&ccedil;&otilde;es pra se atualizar, aprender, pegar dicas, viajar sem sair do lugar e se envolver nas mais diferentes hist&oacute;rias, n&eacute;? E d&aacute; pra encontrar v&aacute;rios g&ecirc;neros, como livros de mitologia e folclore, livros sobre pets, livros de administra&ccedil;&atilde;o, livros de Agricultura e Agropecu&aacute;ria, livros de Arquitetura, livros de Arte e Fotografia e muito mais! Quer saber mais sobre esses e outros? Vem comigo:</p>"
+            }
+          },
+          {
+            "label": "Mercado",
+            "id": "ME",
+            "description": "Mercado",
+            "meta": {
+              "canonical": "/mercado/l/me/",
+              "breadcrumbAlias": "Mercado",
+              "description": "Agora é o mercado que vai até você! As melhores ofertas de produtos de limpeza, cuidados pessoais, bebidas e alimentos você encontra aqui no Magazine Luiza!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Olha, existem diversos tipos de itens de mercado que s&atilde;o bem importantes pro dia a dia, t&aacute;? Pra come&ccedil;ar, tem os </span><a href=\"https://www.magazineluiza.com.br/alimentos/mercado/s/me/alme/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">alimentos</span></a><span style=\"font-size: 12pt;\"> como </span><a href=\"https://www.magazineluiza.com.br/carnes-aves-e-peixes/mercado/s/me/capx/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">carne, ave, peixe</span></a><span style=\"font-size: 12pt;\">, ovo e muito mais. D&aacute; pra encontrar tamb&eacute;m </span><a href=\"https://www.magazineluiza.com.br/descartaveis-e-utilitarios/mercado/s/me/deut/%20https://www.magazineluiza.com.br/produtos-de-higiene/mercado/s/me/prhi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">produtos de higiene</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/produtos-de-limpeza/mercado/s/me/lica/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">produtos de limpeza</span></a><span style=\"font-size: 12pt;\"> como </span><a href=\"https://www.magazineluiza.com.br/agua-sanitaria/mercado/s/me/agsa/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">&aacute;gua sanit&aacute;ria</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/desinfetante/mercado/s/me/desi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">desinfetante</span></a><span style=\"font-size: 12pt;\">. A&iacute; sim! Fora que ainda &eacute; poss&iacute;vel achar acess&oacute;rios pra aumentar o cuidado com a fam&iacute;lia como </span><a href=\"https://www.magazineluiza.com.br/repelente/mercado/s/me/mrpl/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">repelente</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/inseticidas/mercado/s/me/inse/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">inseticida</span></a><span style=\"font-size: 12pt;\">. Quer saber detalhes sobre </span><a href=\"https://www.magazineluiza.com.br/mercado/l/me/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">mercado</span></a><span style=\"font-size: 12pt;\">? Fica comigo que eu te mostro!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Moda",
+            "id": "MD",
+            "description": "Moda",
+            "meta": {
+              "canonical": "/moda-e-acessorios/l/md/",
+              "breadcrumbAlias": "Moda",
+              "description": "Encontre Roupas Masculinas, Femininas, Acessórios, Bolsas e Pantufas com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p>Gente, as roupas e acess&oacute;rios s&atilde;o alguns dos itens de moda que ajudam a expressar a personalidade e criar produ&ccedil;&otilde;es lindas, viu? E voc&ecirc; encontra pe&ccedil;as de diferentes estilos, tecidos, estampas e cores pra conseguir montar looks pra usar no dia a dia, no trabalho ou numa festinha. Quer saber mais? Vem comigo:</p>"
+            }
+          },
+          {
+            "label": "Móveis",
+            "id": "MO",
+            "description": "Móveis",
+            "meta": {
+              "canonical": "/moveis/l/mo/",
+              "breadcrumbAlias": "Móveis",
+              "description": "Encontre Guarda-roupa, Cadeiras de escritório, Sofás e Escrivaninhas com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p class=\"normal\" style=\"text-align: justify;\"><span style=\"font-size: 12pt;\">Gente, uma casa cheinha de </span><a href=\"https://www.magazineluiza.com.br/moveis/l/mo/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis</span></a><span style=\"font-size: 12pt;\"> &eacute; a pedida certa pra trazer conforto, estilo e praticidade pro seu dia a dia, n&eacute;? Por isso, vale a pena apostar em op&ccedil;&otilde;es pra todos os c&ocirc;modos, como </span><a href=\"https://www.magazineluiza.com.br/moveis-para-banheiro/moveis/s/mo/momb/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis do banheiro</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/moveis-para-quarto/moveis/s/mo/mcqa/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis para quarto</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/quarto-de-bebe/moveis/s/mo/qdbb/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis quarto beb&ecirc;</span></a><span style=\"font-size: 12pt;\"> e at&eacute; mesmo </span><a href=\"https://www.magazineluiza.com.br/moveis-para-escritorio/moveis/s/mo/mole/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis escrit&oacute;rio</span></a><span style=\"font-size: 12pt;\">. Sem contar nos m&oacute;veis de madeira, conhecidos pela beleza e resist&ecirc;ncia! Quer conferir umas dicas? Vem comigo:</span></p>"
+            }
+          },
+          {
+            "label": "Música e Shows",
+            "id": "MS",
+            "description": "Música e Shows",
+            "meta": {
+              "canonical": "/musica-e-shows/l/ms/",
+              "breadcrumbAlias": "Música e Shows",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">As </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows/l/ms/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&uacute;sicas e shows</span></a><span style=\"font-size: 12pt;\"> s&atilde;o cds, dvs e vinis com diferentes bandas, artistas e g&ecirc;neros. Olha, &eacute; poss&iacute;vel achar de </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows-de-axe/musica-e-shows/s/ms/axee/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Ax&eacute;</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows-de-bossa-nova/musica-e-shows/s/ms/bosn/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Bossa Nova</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows-de-chorinho/musica-e-shows/s/ms/chor/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Chorinho</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows-classicos/musica-e-shows/s/ms/clss/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">shows cl&aacute;ssicos</span></a><span style=\"font-size: 12pt;\"> e de </span><a href=\"https://www.magazineluiza.com.br/musica-e-shows-de-pop/musica-e-shows/s/ms/mspp/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&uacute;sica pop</span></a><span style=\"font-size: 12pt;\">. E at&eacute; CD e DVD de </span><a href=\"https://www.magazineluiza.com.br/cd-e-dvd-de-karaoke/musica-e-shows/s/ms/kara\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">karaok&ecirc;</span></a><span style=\"font-size: 12pt;\"> pra abafar nas festas de fim de ano, festas da firma, almo&ccedil;os, churrascos e anivers&aacute;rios. Fica comigo que eu te mostro!</span></p>"
+            }
+          },
+          {
+            "label": "Natal",
+            "id": "NA",
+            "description": "Natal",
+            "meta": {
+              "canonical": "/natal/l/na/",
+              "breadcrumbAlias": "Natal",
+              "description": "Encontre o presente de Natal perfeito para sua família. Tudo com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, decorar a casa pro </span><a href=\"https://www.magazineluiza.com.br/natal/l/na/\"><span style=\"color: #1155cc; font-size: 12pt;\">Natal</span></a><span style=\"font-size: 12pt;\"> &eacute; muito mais do que enfeitar, viu? &Eacute; criar um ambiente cheio de amor, uni&atilde;o e alegria. Que tal montar uma &aacute;rvore deslumbrante, escolher enfeites que brilham e preparar aquela cesta recheada de gostosuras? Cada detalhe faz toda a diferen&ccedil;a pra tornar a celebra&ccedil;&atilde;o especial, seja pra receber os amigos ou a fam&iacute;lia. Quer saber melhor? Ent&atilde;o vem comigo:</span></p>\n<p dir=\"ltr\">&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Papelaria",
+            "id": "PA",
+            "description": "Papelaria",
+            "meta": {
+              "canonical": "/papelaria/l/pa/",
+              "breadcrumbAlias": "Papelaria",
+              "description": "Ofertas de Material Escolar e Material de Escritório, é aqui no Magazine Luiza! Vem aproveitar os melhores preços e variedade em Papelaria!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, os itens de </span><a href=\"https://www.magazineluiza.com.br/papelaria/l/pa/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">papelaria</span></a><span style=\"font-size: 12pt;\"> s&atilde;o essenciais na hora de estudar, trabalhar ou praticar um hobby. Isso porque tem materiais de escrita, artesanato, al&eacute;m de acess&oacute;rios &oacute;timos pra organiza&ccedil;&atilde;o de documentos e outros pap&eacute;is importantes. E o melhor, d&aacute; pra achar uma lista enorme de pe&ccedil;as, incluindo op&ccedil;&otilde;es pr&aacute;ticas at&eacute; as bonitinhas e decoradas. Quer saber mais? Vem comigo que eu te conto!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Pet Shop",
+            "id": "PE",
+            "description": "Pet Shop",
+            "meta": {
+              "canonical": "/pet-shop/l/pe/",
+              "breadcrumbAlias": "Pet Shop",
+              "description": "Pet Shop em oferta é aqui no Magazine Luiza! Clique e confira as melhores promoções de produtos de Pet Shop! Vem aproveitar! ;)",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, </span><a href=\"https://www.magazineluiza.com.br/busca/cama+pra+cachorro/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">cama pra cachorro</span></a><span style=\"font-size: 12pt;\">, ra&ccedil;&atilde;o, </span><a href=\"https://www.magazineluiza.com.br/busca/coleira/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">coleira</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/gaiola-para-passaros/pet-shop/s/pe/psgl/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">gaiola</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/busca/vermifugo/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">vermifugo</span></a><span style=\"font-size: 12pt;\"> s&atilde;o alguns itens incr&iacute;veis de </span><a href=\"https://www.magazineluiza.com.br/pet-shop/l/pe/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">pet shop</span></a><span style=\"font-size: 12pt;\"> pra voc&ecirc; cuidar com carinho dos seus bichinhos, como </span><a href=\"https://www.magazineluiza.com.br/peixes/pet-shop/s/pe/ppex/\"><span style=\"color: #1155cc; font-size: 12pt;\">peixe</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/cachorro/pet-shop/s/pe/psch/\"><span style=\"color: #1155cc; font-size: 12pt;\">cachorro</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/gato/pet-shop/s/pe/pgat/\"><span style=\"color: #1155cc; font-size: 12pt;\">gato</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://www.magazineluiza.com.br/passaros/pet-shop/s/pe/pave/\"><span style=\"color: #1155cc; font-size: 12pt;\">p&aacute;ssaro</span></a><span style=\"color: #0d0d0d; font-size: 12pt;\">. E o legal &eacute; que tem muitas outras op&ccedil;&otilde;es de artigos pet pra deixar o dia a dia com seu animal ainda mais agrad&aacute;vel. Quer saber detalhes? Ent&atilde;o, vem comigo:&nbsp; </span></p>"
+            }
+          },
+          {
+            "label": "Religião e Espiritualidade",
+            "id": "RG",
+            "description": "Religião e Espiritualidade",
+            "meta": {
+              "canonical": "",
+              "breadcrumbAlias": "Religião e Espiritualidade",
+              "description": "",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, o </span><a href=\"https://www.magazineluiza.com.br/produtos-de-budismo-e-hinduismo/religiao-e-espiritualidade/s/rg/pbhi/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Budismo</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://magazineluiza.com.br/produtos-de-budismo-e-hinduismo/religiao-e-espiritualidade/s/rg/pbhi/brand---equilibrio/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Hindu&iacute;smo</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/produtos-de-candomble-e-umbanda/religiao-e-espiritualidade/s/rg/pdcu/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Candombl&eacute;</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/produtos-de-candomble-e-umbanda/religiao-e-espiritualidade/s/rg/pdcu/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Umbanda</span></a><span style=\"font-size: 12pt;\"> e </span><a href=\"https://magazineluiza.com.br/produtos-catolicos/religiao-e-espiritualidade/s/rg/pctc/brand---taimes/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Catolicismo</span></a><span style=\"font-size: 12pt;\"> s&atilde;o apenas algumas das v&aacute;rias religi&otilde;es que existem no mundo, viu? Esse universo da </span><a href=\"https://magazineluiza.com.br/religiao-e-espiritualidade/l/rg\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">Religi&atilde;o e Espiritualidade</span></a><span style=\"font-size: 12pt;\"> &eacute; muito interessante e vasto, com uma infinidade de assuntos pra serem aprendidos. Quer saber detalhes? Ent&atilde;o, vem comigo que eu te mostro: </span></p>"
+            }
+          },
+          {
+            "label": "Relógios",
+            "id": "RE",
+            "description": "Relógios",
+            "meta": {
+              "canonical": "/relogios/l/re/",
+              "breadcrumbAlias": "Relógios",
+              "description": "Relógios e Acessórios das melhores marcas você encontra aqui! Confira os melhores preços de Relógio Casio, Technos Magnum e muito mais! Vem aproveitar!",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Os rel&oacute;gios s&atilde;o </span><a href=\"https://www.magazineluiza.com.br/moda-e-acessorios/l/md/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">acess&oacute;rios de moda</span></a><span style=\"font-size: 12pt;\"> incr&iacute;veis pra voc&ecirc; combinar com diferentes </span><a href=\"https://www.magazineluiza.com.br/moda/l/md/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">roupas</span></a><span style=\"font-size: 12pt;\"> e looks. &Eacute; poss&iacute;vel encontrar vers&otilde;es digitais deles e at&eacute; os smartwatches, </span><a href=\"https://www.magazineluiza.com.br/wearables/celulares-e-smartphones/s/te/tewe/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">wearables</span></a><span style=\"font-size: 12pt;\"> que levam boa parte dos dados do </span><a href=\"https://www.magazineluiza.com.br/celulares-e-smartphones/l/te/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">celular</span></a><span style=\"font-size: 12pt;\"> no pulso, monitoram a sua sa&uacute;de e at&eacute; os batimentos card&iacute;acos, sabia? Pois &eacute;! Vem comigo conhecer!</span></p>"
+            }
+          },
+          {
+            "label": "Saúde e Cuidados Pessoais",
+            "id": "CP",
+            "description": "Saúde e Cuidados Pessoais",
+            "meta": {
+              "canonical": "/saude-e-cuidados-pessoais/l/cp/",
+              "breadcrumbAlias": "Saúde e Cuidados Pessoais",
+              "description": "As melhores ofertas de Secadores, Chapinhas, Escovas Modeladoras e muito mais, você encontra aqui no Magazine Luiza! Confira ;)",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, tem v&aacute;rios cuidados pessoais muito importantes pra sa&uacute;de, viu? Isso pra quem sofre com </span><a href=\"https://www.magazineluiza.com.br/equipamentos-e-acessorios-para-diabeticos/saude-e-cuidados-pessoais/s/cp/diab/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">diabetes</span></a><span style=\"font-size: 12pt;\">, por exemplo, ou ent&atilde;o precisa de itens pro dia a dia, como </span><a href=\"https://www.magazineluiza.com.br/aparelhos-de-higiene-bucal/saude-e-cuidados-pessoais/s/cp/ahbu/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">aparelhos de higiene bucal</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/equipamentos-e-produtos-para-estetica/saude-e-cuidados-pessoais/s/cp/etti/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">equipamentos e produtos para est&eacute;tica</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/equipamentos-acessorios-para-fisioterapia/saude-e-cuidados-pessoais/s/cp/apmf/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">acess&oacute;rios para fisioterapia</span></a><span style=\"font-size: 12pt;\"> </span><span style=\"font-size: 12pt;\">e por a&iacute; vai. E tem v&aacute;rias op&ccedil;&otilde;es que s&atilde;o essenciais pro bem-estar tamb&eacute;m. Quer saber detalhes? Ent&atilde;o vem comigo que eu te conto!</span></p>"
+            }
+          },
+          {
+            "label": "Serviços",
+            "id": "SE",
+            "description": "Serviços",
+            "meta": {
+              "canonical": "/servicos/l/se/",
+              "breadcrumbAlias": "Serviços",
+              "description": "Serviços de instalação, montagem de móveis, higienização de estofados e muito mais para facilitar sua vida, você encontra aqui no Magazine Luiza! Confira!\n",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, no Magalu tem v&aacute;rios tipos de servi&ccedil;os pra escolher o que mais precisa a&iacute;, viu? Voc&ecirc; encontra op&ccedil;&otilde;es de instala&ccedil;&otilde;es de </span><a href=\"https://www.magazineluiza.com.br/moveis/servicos/s/se/smov/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">m&oacute;veis</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/eletrodomesticos-e-portateis/servicos/s/se/spep/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">eletrodom&eacute;sticos</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/consorcio/servicos/s/se/cred/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">cons&oacute;rcios</span></a><span style=\"font-size: 12pt;\"> </span><a href=\"https://www.magazineluiza.com.br/servicos-de-esporte-e-lazer/servicos/s/se/sela/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">esporte e lazer</span></a><span style=\"font-size: 12pt;\">, </span><a href=\"https://www.magazineluiza.com.br/servicos-automotivos/servicos/s/se/svau/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">ajuda automotiva</span></a><span style=\"font-size: 12pt;\"> e por a&iacute; vai. Quer saber detalhes? Ent&atilde;o vem comigo que eu te conto!&nbsp;</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Suplementos Alimentares",
+            "id": "SA",
+            "description": "Suplementos Alimentares",
+            "meta": {
+              "canonical": "/suplementos-alimentares/l/sa/",
+              "breadcrumbAlias": "Suplementos Alimentares",
+              "description": "Aqui você encontra suplementos pré e pós treino, whey protein, termogênicos, shakes e muito mais com os melhores preços!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, os suplementos alimentares s&atilde;o c&aacute;psulas, bebidas ou comidas ideais pra aumentar a energia, a quantidade de nutrientes no corpo e at&eacute; o rendimento dos exerc&iacute;cios, viu? O mais legal &eacute; que voc&ecirc; acha op&ccedil;&otilde;es diferentes, pr&oacute;prias pra te ajudar nos resultados que quer conseguir. Gostou? Ent&atilde;o, vem comigo que eu te conto os detalhes sobre esses itens:</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Tablets, iPads e E-Reader",
+            "id": "TB",
+            "description": "Tablets, iPads e E-Reader",
+            "meta": {
+              "canonical": "/tablets-ipads-e-e-reader/l/tb/",
+              "breadcrumbAlias": "Tablets, iPads e E-Reader",
+              "description": "O seu próximo tablet está aqui! iPads, Tablets e E-readers com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, os </span><a href=\"https://www.magazineluiza.com.br/tablets-ipads-e-e-reader/l/tb/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">tablets</span></a><span style=\"font-size: 12pt;\"> s&atilde;o aparelhos eletr&ocirc;nicos incr&iacute;veis prae facilitar a rotina. Isso porque s&atilde;o um tipo de </span><a href=\"https://www.magazineluiza.com.br/computador-e-all-in-one/informatica/s/in/micr/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">computador</span></a><span style=\"font-size: 12pt;\"> port&aacute;til com tela pequena, sens&iacute;vel ao toque e que conta com v&aacute;rios recursos de fotos, edi&ccedil;&atilde;o de texto e imagem. Ou seja, d&aacute; pra fazer uma boa parte dos trabalhos e atividades que voc&ecirc; faria num </span><a href=\"https://www.magazineluiza.com.br/notebook/informatica/s/in/note/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">notebook</span></a><span style=\"font-size: 12pt;\">, e o melhor &eacute; que n&atilde;o ocupa espa&ccedil;o ou faz peso na bolsa. Quer saber mais? Vem comigo!</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Telefonia Fixa",
+            "id": "TF",
+            "description": "Telefonia Fixa",
+            "meta": {
+              "canonical": "/telefonia-fixa/l/tf/",
+              "breadcrumbAlias": "Telefonia Fixa",
+              "description": "Telefone sem fio, com fio de várias marcas e modelos com preços incríveis você encontra aqui no Magazine Luiza! Vem aproveitar!",
+              "seoBlock": "<p class=\"normal\" style=\"text-align: justify;\"><span style=\"font-size: 12pt;\">Gente, a </span><a href=\"https://www.magazineluiza.com.br/telefonia-fixa/l/tf/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">telefonia fixa</span></a><span style=\"font-size: 12pt;\"> &eacute; um jeito tradicional de fazer e receber liga&ccedil;&otilde;es, seja em casa ou numa empresa, viu? O legal &eacute; que com essa tecnologia d&aacute; pra encontrar muitos aparelhos bons, cheios de fun&ccedil;&otilde;es modernas e com baterias que duram bastante, no caso dos sem fio. Que tal saber mais sobre isso? Vem comigo que eu te mostro:</span></p>"
+            }
+          },
+          {
+            "label": "TV e Vídeo",
+            "id": "ET",
+            "description": "TV e Vídeo",
+            "meta": {
+              "canonical": "/tv-e-video/l/et/",
+              "breadcrumbAlias": "TV e Vídeo",
+              "description": "Smart Tv, Tv LED, LCD e Plasma com as melhores ofertas, é aqui! Confira os melhores preços de TVs e Home Theater aqui no Magazine Luiza!",
+              "seoBlock": "<p dir=\"ltr\"><span style=\"font-size: 12pt;\">Gente, os equipamentos de TV e v&iacute;deo s&atilde;o acess&oacute;rios e aparelhos que ajudam a deixar a rotina bem pr&aacute;tica e divertida, viu? Al&eacute;m de mostrarem arquivos multim&iacute;dia com muita qualidade, como filmes, m&uacute;sicas e clipes, ainda podem contar com fun&ccedil;&otilde;es que facilitam o dia a dia nos momentos de festa, descanso ou lazer. A&iacute; sim! Quer saber mais detalhes e conhecer alguns dos populares? Vem comigo:</span></p>\n<p>&nbsp;</p>"
+            }
+          },
+          {
+            "label": "Utilidades Domésticas",
+            "id": "UD",
+            "description": "Utilidades Domésticas",
+            "meta": {
+              "canonical": "/utilidades-domesticas/l/ud/",
+              "breadcrumbAlias": "Utilidades Domésticas",
+              "description": "Encontre Jogo de Panelas, Aparelho de Jantar, Balança de Cozinha com ótimos preços e entrega rápida. Tudo isso #TemNoMagalu",
+              "seoBlock": "<p><span style=\"font-size: 12pt;\">Gente, os itens de utilidades dom&eacute;sticas s&atilde;o verdadeiros aliados no dia a dia de qualquer </span><a href=\"https://www.magazineluiza.com.br/casa-e-construcao/l/cj/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">casa</span></a><span style=\"font-size: 12pt;\">, viu? Isso porque eles s&atilde;o essenciais pra quem busca praticidade sem abrir m&atilde;o do conforto e da efici&ecirc;ncia, e ainda conseguem ser vers&aacute;teis, desde a organiza&ccedil;&atilde;o da sua </span><a href=\"https://www.magazineluiza.com.br/cozinha/casa-e-construcao/s/cj/cznh/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">cozinha</span></a><span style=\"font-size: 12pt;\"> at&eacute; a </span><a href=\"https://www.magazineluiza.com.br/produtos-de-limpeza/mercado/s/me/lica/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #1155cc; font-size: 12pt;\">limpeza</span></a><span style=\"font-size: 12pt;\"> dos ambientes, sabe? E o melhor de tudo &eacute; que voc&ecirc; encontra um mont&atilde;o de op&ccedil;&otilde;es pra combinar com os c&ocirc;modos. Quer descobrir detalhes? Vem comigo:</span></p>"
+            }
+          }
+        ],
+        "topTerms": {
+          "label": "Termos mais buscados",
+          "terms": [
+            "geladeira",
+            "celular",
+            "guarda roupa",
+            "iphone",
+            "air fryer"
+          ]
+        },
+        "abTesting": null,
+        "item": {
+          "type": "product",
+          "id": "dde864kefe",
+          "partNumber": [],
+          "offerId": "dde864kefe",
+          "image": "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/7ed3d2d12b1abc96a3217bd4bbf5de62.jpeg",
+          "title": "Colchão Solteiro Mola Ensacada Probel Versailles Ultra Gel (88x188x30cm) Branco",
+          "description": "Colchão Solteiro Mola Ensacada Probel Versailles Ultra Gel: O Toque de Luxo e Tecnologia para Suas Noites<br>Descubra o Colchão de Molas Ensacadas Individualmente Versailles Ultra Gel, um produto premium da renomada marca Probel, que há mais de 80 anos é sinônimo de qualidade e inovação no mercado de colchões. Desenvolvido para oferecer o máximo de conforto e bem-estar, esse colchão garante noites de sono revigorantes e momentos especiais ao longo do dia.Perfeito para quem valoriza conforto e qualidade, o Colchão Probel Versailles Ultra Gel oferece suporte personalizado e uma superfície acolhedora para noites de sono tranquilas e revigorantes.<br>Benefícios do Colchão Probel Versailles Ultra Gel:- Conforto Inigualável com Pillow Euro que proporciona superfície incrivelmente macia e acolhedora. O tecido de malha branca com detalhes em relevo e gramatura de 350 g/m2 oferece a sensação de frescor e suavidade ao toque, ideal para noites de sono tranquilas.- Tecnologia HR Gel para Frescor e Suporte: A espuma HR Gel proporciona a sensação de frescor contínuo, regulando a temperatura corporal durante o sono, além de se adaptar aos contornos do corpo e aliviar os pontos de pressão.- Suporte Personalizado e Independente proporcionado pelo sistema de molas ensacadas individualmente garante suporte personalizado, adaptando-se aos contornos do corpo e proporcionando um alinhamento perfeito da coluna.- Saúde e Bem-Estar: O design ergonômico do Colchão Probel Versailles Ultra Gel promove a postura correta durante o sono, aliviando pontos de pressão e prevenindo dores e desconfortos. Isso resulta na melhora significativa da qualidade do sono, refletindo positivamente na saúde e no bem-estar geral.<br>Garantia e Suporte: A Probel oferece uma garantia de 12 meses, reafirmando seu compromisso com a qualidade e a satisfação do cliente. Em caso de qualquer defeito de fabricação, a assistência técnica premiada da Probel está pronta para atender rapidamente<br>Características Principais:Modelo: Versailles Ultra GelMarca: ProbelPillow: EuroTecido Tampo: Malha branca com detalhes na cor branca em relevoGramatura Tecido: 350 g/m2Espuma Matelassê: D20 CilíndricaEspuma do Estofamento 1: HR GelEspuma do Estofamento 2: D33Sistema de Molejo: Mola EnsacadaBase de Suporte do Colchão: EspumaNível de Firmeza: FirmeAltura: 30 cmSuporte de peso: 120 Kg por pessoaManutenção: No turnGarantia: 12 MesesCertificação Inmetro: Certificado conforme Portaria Inmetro No 75/2021Largura: 88 cmComprimento: 188 cmTamanho: Solteiro<br>A qualidade consistente e a superioridade tecnológica do Colchão Probel Versailles Ultra Gel inspiram confiança e confiabilidade, características que fazem da Probel uma referência no mercado. Com design sofisticado e materiais de alta qualidade, este colchão é a escolha ideal para quem busca exclusividade, sofisticação e um valor tangível em cada detalhe.<br>Transforme suas noites e dias com o Colchão Mola Ensacada Probel Versailles Ultra Gel. Experimente o poder revigorante de um sono de qualidade e sinta a diferença em sua saúde, humor e produtividade diária. Para uma vida mais pró, escolha Probel.<br>",
+          "reference": "",
+          "available": true,
+          "isBuyBox": false,
+          "path": "/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/p/dde864kefe/co/ccbc/",
+          "tags": [],
+          "minimumOrderQuantity": 1,
+          "entity": "Colchão",
+          "terms": [
+            "Colchão Solteiro Mola Ensacada",
+            "Colchão Solteiro",
+            "Colchão Mola Ensacada",
+            "Colchão Mola",
+            "Colchão Ensacada"
+          ],
+          "offers": [
+            {
+              "variationId": "dde864kefe",
+              "price": 2143.76,
+              "listPrice": 2490.83,
+              "currency": "BRL",
+              "exchangeRate": null,
+              "idExchangeRate": null,
+              "originalPriceForeign": null,
+              "bestPrice": {
+                "discount": 20,
+                "paymentMethodDescription": "no Pix",
+                "paymentMethodId": "pix",
+                "totalAmount": 1715.01
+              },
+              "bestInstallmentPlan": {
+                "discount": null,
+                "installment": 12,
+                "installmentAmount": 178.65,
+                "interestAmount": 0,
+                "paymentMethodDescription": "sem juros",
+                "paymentMethodId": "mastercard",
+                "totalAmount": 2143.76
+              },
+              "paymentMethods": [
+                {
+                  "id": "luiza_ouro",
+                  "installmentPlans": [
+                    {
+                      "discount": 0,
+                      "installment": 1,
+                      "installmentAmount": 2143.76,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 2,
+                      "installmentAmount": 1071.88,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 3,
+                      "installmentAmount": 714.59,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 4,
+                      "installmentAmount": 535.94,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 5,
+                      "installmentAmount": 428.75,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 6,
+                      "installmentAmount": 357.29,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 7,
+                      "installmentAmount": 306.25,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 8,
+                      "installmentAmount": 267.97,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 9,
+                      "installmentAmount": 238.2,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 10,
+                      "installmentAmount": 214.38,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 11,
+                      "installmentAmount": 194.89,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 12,
+                      "installmentAmount": 178.65,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 13,
+                      "installmentAmount": 188.03,
+                      "interestAmount": 300.68,
+                      "totalAmount": 2444.44
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 14,
+                      "installmentAmount": 176.08,
+                      "interestAmount": 321.41,
+                      "totalAmount": 2465.17
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 15,
+                      "installmentAmount": 165.59,
+                      "interestAmount": 340.14,
+                      "totalAmount": 2483.9
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 16,
+                      "installmentAmount": 156.52,
+                      "interestAmount": 360.49,
+                      "totalAmount": 2504.25
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 17,
+                      "installmentAmount": 148.5,
+                      "interestAmount": 380.71,
+                      "totalAmount": 2524.47
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 18,
+                      "installmentAmount": 141.36,
+                      "interestAmount": 400.79,
+                      "totalAmount": 2544.55
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 19,
+                      "installmentAmount": 148.47,
+                      "interestAmount": 677.25,
+                      "totalAmount": 2821.01
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 20,
+                      "installmentAmount": 142.77,
+                      "interestAmount": 711.55,
+                      "totalAmount": 2855.31
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 21,
+                      "installmentAmount": 137.6,
+                      "interestAmount": 745.84,
+                      "totalAmount": 2889.6
+                    }
+                  ]
+                },
+                {
+                  "id": "boleto",
+                  "installmentPlans": [
+                    {
+                      "discount": 0,
+                      "installment": 1,
+                      "installmentAmount": 2143.76,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    }
+                  ]
+                },
+                {
+                  "id": "mastercard",
+                  "installmentPlans": [
+                    {
+                      "discount": 0,
+                      "installment": 1,
+                      "installmentAmount": 2143.76,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 2,
+                      "installmentAmount": 1071.88,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 3,
+                      "installmentAmount": 714.59,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 4,
+                      "installmentAmount": 535.94,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 5,
+                      "installmentAmount": 428.75,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 6,
+                      "installmentAmount": 357.29,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 7,
+                      "installmentAmount": 306.25,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 8,
+                      "installmentAmount": 267.97,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 9,
+                      "installmentAmount": 238.2,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 10,
+                      "installmentAmount": 214.38,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 11,
+                      "installmentAmount": 194.89,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    },
+                    {
+                      "discount": 0,
+                      "installment": 12,
+                      "installmentAmount": 178.65,
+                      "interestAmount": 0,
+                      "totalAmount": 2143.76
+                    }
+                  ]
+                },
+                {
+                  "id": "pix",
+                  "installmentPlans": [
+                    {
+                      "discount": 20,
+                      "installment": 1,
+                      "installmentAmount": 1715.01,
+                      "interestAmount": 0,
+                      "totalAmount": 1715.01
+                    }
+                  ]
+                }
+              ],
+              "restrictions": {
+                "maxCheckoutQuantity": null,
+                "timerStartDate": null,
+                "timerEndDate": null
+              },
+              "seller": {
+                "address": {
+                  "address": "R OCEANIA",
+                  "city": "APARECIDA DO TABOADO",
+                  "complement": "DISTRITO INDUSTRIAL",
+                  "country": "Brasil",
+                  "district": "GILBERTO N ROCHA",
+                  "number": "100",
+                  "state": "MS",
+                  "zipcode": "79570000"
+                },
+                "tagRanking": "",
+                "available": true,
+                "deliveryDescription": "Magalu",
+                "deliveryId": "magazineluiza",
+                "description": "Probel Colchões",
+                "documentNumber": "04419279000101",
+                "id": "probelcolchoes",
+                "isActive": true,
+                "isChatEnabled": true,
+                "isIpdv": false,
+                "isQuestionsAndAnswersEnabled": true,
+                "legalName": "Ind. Com de Colchões e Espumas Sul MT",
+                "name": "Probel Colchões",
+                "regulatoryData": {
+                  "anvisa": null,
+                  "mapa": null
+                },
+                "sellerSince": "2020-04-27T00:00:00.000+00:00",
+                "sellsToCompany": true,
+                "shippingDocumentNumber": "",
+                "sku": "PA66322",
+                "stats": {
+                  "answerRate": {
+                    "message": "Responde rápido",
+                    "status": "success"
+                  },
+                  "deliveryRate": {
+                    "message": "Atrasos pontuais",
+                    "status": "warning"
+                  },
+                  "score": 3.1,
+                  "totalSales": 6341
+                },
+                "tags": [
+                  {
+                    "action": null,
+                    "backgroundColor": null,
+                    "code": null,
+                    "discountType": "percentage",
+                    "discountValue": 31.15,
+                    "endDate": null,
+                    "icon": null,
+                    "iconProperties": null,
+                    "layout": null,
+                    "message": null,
+                    "startDate": null,
+                    "textColor": null,
+                    "type": "base_price",
+                    "version": null
+                  }
+                ]
+              },
+              "badges": [],
+              "promotions": []
+            }
+          ],
+          "attributes": [
+            {
+              "current": "Branco",
+              "label": "Cor",
+              "type": "color",
+              "values": [
+                {
+                  "available": true,
+                  "image": "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/7ed3d2d12b1abc96a3217bd4bbf5de62.jpeg",
+                  "path": "/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/p/dde864kefe/co/ccbc/",
+                  "value": "Branco",
+                  "variationId": "dde864kefe"
+                }
+              ],
+              "mandatory": false
+            },
+            {
+              "current": "Solteiro",
+              "label": "Tamanho",
+              "type": "size",
+              "values": [
+                {
+                  "available": true,
+                  "image": "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/7ed3d2d12b1abc96a3217bd4bbf5de62.jpeg",
+                  "path": "/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/p/dde864kefe/co/ccbc/",
+                  "value": "Solteiro",
+                  "variationId": "dde864kefe"
+                }
+              ],
+              "mandatory": true
+            }
+          ],
+          "brand": {
+            "label": "Probel",
+            "slug": "probel"
+          },
+          "bundles": [],
+          "category": {
+            "id": "CO",
+            "name": "Colchões",
+            "url": "colchoes/l/co/",
+            "subcategories": [
+              {
+                "id": "CCBC",
+                "name": "Colchão Casal",
+                "url": "colchao-casal/colchoes/s/co/ccbc/"
+              },
+              {
+                "id": "CHCX",
+                "name": "Colchão",
+                "url": "colchao/colchoes/s/co/chcx/"
+              }
+            ]
+          },
+          "dimensions": {
+            "depth": 1.88,
+            "height": 0.3,
+            "weight": 19.85,
+            "width": 0.88
+          },
+          "factsheet": [
+            {
+              "displayName": "Ficha Técnica",
+              "position": null,
+              "slug": "ficha-tecnica",
+              "elements": [
+                {
+                  "keyName": "Garantia",
+                  "position": 0,
+                  "slug": null,
+                  "elements": [
+                    {
+                      "isHtml": false,
+                      "keyName": null,
+                      "position": 0,
+                      "slug": null,
+                      "value": "12 Meses Molas e espuma, 3 Meses Tecido"
+                    }
+                  ]
+                },
+                {
+                  "keyName": "Informações complementares",
+                  "position": 1,
+                  "slug": "informacoes-complementares-magazineluiza",
+                  "elements": [
+                    {
+                      "isHtml": false,
+                      "keyName": "Altura",
+                      "position": 1,
+                      "slug": "altura",
+                      "value": "30 cm"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Certificações",
+                      "position": 2,
+                      "slug": "certificacoes",
+                      "value": "Certificado conforme Portaria Inmetro No 75/2021"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Cor",
+                      "position": 3,
+                      "slug": "cor",
+                      "value": "Branco"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Densidade",
+                      "position": 4,
+                      "slug": "densidade",
+                      "value": "D20"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Dimensões do Produto",
+                      "position": 5,
+                      "slug": "dimensoes-do-produto",
+                      "value": "88x188x30cm"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Largura x Profundidade",
+                      "position": 6,
+                      "slug": "largura-x-profundidade",
+                      "value": "88x188"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Linha",
+                      "position": 7,
+                      "slug": "linha",
+                      "value": "Versailles"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Marca",
+                      "position": 8,
+                      "slug": "marca",
+                      "value": "Probel"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Modelo",
+                      "position": 9,
+                      "slug": "modelo",
+                      "value": "Versailles Ultra Gel"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Nível de Conforto",
+                      "position": 10,
+                      "slug": "nivel-de-conforto",
+                      "value": "Firme"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Peso Suportado por Pessoa",
+                      "position": 11,
+                      "slug": "peso-suportado-por-pessoa",
+                      "value": "120 Kg"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Prazo de Garantia",
+                      "position": 12,
+                      "slug": "prazo-de-garantia",
+                      "value": "12 Meses"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Tamanho",
+                      "position": 13,
+                      "slug": "tamanho",
+                      "value": "Solteiro"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Tamanho do Colchão",
+                      "position": 14,
+                      "slug": "tamanho-do-colchao",
+                      "value": "Solteiro"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Tecido",
+                      "position": 15,
+                      "slug": "tecido",
+                      "value": "Malha branca com detalhes na cor branca em relevo"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Tipo de Colchão",
+                      "position": 16,
+                      "slug": "tipo-de-colchao",
+                      "value": "Mola Ensacada"
+                    },
+                    {
+                      "isHtml": false,
+                      "keyName": "Tipo de Mola",
+                      "position": 17,
+                      "slug": "tipo-de-mola",
+                      "value": "Ensacada"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "financialServices": [],
+          "media": {
+            "audios": [],
+            "images": [
+              "https://m.magazineluiza.com.br/a-static/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/7ed3d2d12b1abc96a3217bd4bbf5de62.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/3ef21858012afea1e4761424137682aa.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/0921f698e176303ec4c5b30eb7f727ab.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/8806b6d8e638b93f7aea8d2125be521e.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/8177d9fb31d27863e74dcbcd59f0ea2e.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/2c0042a3018d1f620b60d3de77a345bb.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/361df0e12c66ba6b82e92246b6ddd14a.jpeg",
+              "https://a-static.mlcdn.com.br/{w}x{h}/colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco/probelcolchoes/pa66322/73de50ac631aaf0e3d956cbbe2a6b82b.jpeg"
+            ],
+            "podcasts": [],
+            "videos": []
+          },
+          "rating": {
+            "count": 0,
+            "score": 0
+          },
+          "subcategory": {
+            "id": "CCBC",
+            "name": "Colchão Casal",
+            "url": "colchao-casal/colchoes/s/co/ccbc/"
+          }
+        },
+        "keySellingPoint": null,
+        "reviewSummaryQuery": null,
+        "productRating": null,
+        "breadcrumbQuery": {
+          "breadcrumb": [
+            {
+              "label": "Colchões",
+              "categoryId": "CO",
+              "subcategoryId": "CHCX",
+              "meta": {
+                "description": null,
+                "canonical": "/colchao/colchoes/s/co/chcx/",
+                "title": "Colchão - Colchões | Magazine Luiza"
+              }
+            },
+            {
+              "label": "Casal",
+              "categoryId": "CO",
+              "subcategoryId": "CCBC",
+              "meta": {
+                "description": "Colchão Casal em promoção, tem no Magalu! Os menores preços em Colchões com entrega mais rápida do Brasil #TemNoMagalu",
+                "canonical": "/colchao-casal/colchoes/s/co/ccbc/",
+                "title": "Colchão Casal"
+              }
+            }
+          ]
+        },
+        "seoPdpContent": null,
+        "blogPostsByEcomm": {
+          "posts": [
+            {
+              "id": "13007",
+              "title": "Colchão de casal: molas ou espuma? Descubra qual é o ideal pra você!",
+              "subtitle": "O colchão ideal pra você depende de suas necessidades e preferências. Molas ou espuma? Descubra qual é o melhor neste guia completo.",
+              "slug": "co/chos/colchao-de-casal-molas-ou-espuma-descubra-qual-e-o-ideal-pra-voce",
+              "publishedAt": "2024-10-01 20:37:55.841000",
+              "updatedAt": "2025-03-28 18:23:09.945000",
+              "categoryId": "CHOS",
+              "categorySlug": "colchao",
+              "categoryTitle": "Colchão",
+              "image": {
+                "alt": "",
+                "urls": {
+                  "default": "https://wx.mlcdn.com.br/ponzi/production/uploads/getty_images_186809072_ecc00cc897.jpg",
+                  "thumbnail": "https://wx.mlcdn.com.br/ponzi/production/uploads/thumbnail_getty_images_186809072_ecc00cc897.jpg",
+                  "small": "https://wx.mlcdn.com.br/ponzi/production/uploads/small_getty_images_186809072_ecc00cc897.jpg",
+                  "medium": "https://wx.mlcdn.com.br/ponzi/production/uploads/medium_getty_images_186809072_ecc00cc897.jpg",
+                  "large": "https://wx.mlcdn.com.br/ponzi/production/uploads/large_getty_images_186809072_ecc00cc897.jpg"
+                }
+              }
+            },
+            {
+              "id": "13005",
+              "title": "Os 10 melhores colchões de casal com excelente custo-benefício",
+              "subtitle": "Descubra os melhores colchões de casal e escolha o que melhor se adapta às suas necessidades. ",
+              "slug": "co/chos/os-10-melhores-colchoes-de-casal-com-excelente-custo-beneficio",
+              "publishedAt": "2024-10-01 19:01:27.135000",
+              "updatedAt": "2025-08-29 18:22:17.742000",
+              "categoryId": "CHOS",
+              "categorySlug": "colchao",
+              "categoryTitle": "Colchão",
+              "image": {
+                "alt": "",
+                "urls": {
+                  "default": "https://wx.mlcdn.com.br/ponzi/production/uploads/1_b63d7ec053.jpg",
+                  "thumbnail": "https://wx.mlcdn.com.br/ponzi/production/uploads/thumbnail_1_b63d7ec053.jpg",
+                  "small": "https://wx.mlcdn.com.br/ponzi/production/uploads/small_1_b63d7ec053.jpg",
+                  "medium": "https://wx.mlcdn.com.br/ponzi/production/uploads/medium_1_b63d7ec053.jpg",
+                  "large": "https://wx.mlcdn.com.br/ponzi/production/uploads/large_1_b63d7ec053.jpg"
+                }
+              }
+            },
+            {
+              "id": "13004",
+              "title": "Dicas essenciais pra cuidar do seu colchão de casal e prolongar sua vida útil",
+              "subtitle": "Dicas essenciais pra cuidar do seu colchão de casal e prolongar sua vida útil. Mantenha seu colchão limpo, confortável e durável por muitos anos",
+              "slug": "co/chos/dicas-essenciais-pra-cuidar-do-seu-colchao-de-casal-e-prolongar-sua-vida-util",
+              "publishedAt": "2024-10-01 18:44:58.948000",
+              "updatedAt": "2024-10-02 14:18:41.822000",
+              "categoryId": "CHOS",
+              "categorySlug": "colchao",
+              "categoryTitle": "Colchão",
+              "image": {
+                "alt": "",
+                "urls": {
+                  "default": "https://wx.mlcdn.com.br/ponzi/production/uploads/1_e04b0a4c5a.jpg",
+                  "thumbnail": "https://wx.mlcdn.com.br/ponzi/production/uploads/thumbnail_1_e04b0a4c5a.jpg",
+                  "small": "https://wx.mlcdn.com.br/ponzi/production/uploads/small_1_e04b0a4c5a.jpg",
+                  "medium": "https://wx.mlcdn.com.br/ponzi/production/uploads/medium_1_e04b0a4c5a.jpg",
+                  "large": "https://wx.mlcdn.com.br/ponzi/production/uploads/large_1_e04b0a4c5a.jpg"
+                }
+              }
+            },
+            {
+              "id": "13003",
+              "title": "Qual a medida de um colchão de casal? ",
+              "subtitle": "Qual a medida de um colchão de casal? Descubra agora mesmo no Blog da Lu! Dicas valiosas de como escolher o melhor colchão para o seu quarto. ",
+              "slug": "co/chos/qual-a-medida-de-um-colchao-de-casal",
+              "publishedAt": "2024-10-01 18:30:55.004000",
+              "updatedAt": "2024-10-01 18:30:55.004000",
+              "categoryId": "CHOS",
+              "categorySlug": "colchao",
+              "categoryTitle": "Colchão",
+              "image": {
+                "alt": "",
+                "urls": {
+                  "default": "https://wx.mlcdn.com.br/ponzi/production/uploads/1_f23e28b58b.jpg",
+                  "thumbnail": "https://wx.mlcdn.com.br/ponzi/production/uploads/thumbnail_1_f23e28b58b.jpg",
+                  "small": "https://wx.mlcdn.com.br/ponzi/production/uploads/small_1_f23e28b58b.jpg",
+                  "medium": "https://wx.mlcdn.com.br/ponzi/production/uploads/medium_1_f23e28b58b.jpg",
+                  "large": "https://wx.mlcdn.com.br/ponzi/production/uploads/large_1_f23e28b58b.jpg"
+                }
+              }
+            }
+          ]
+        },
+        "questions": {
+          "totalQuestions": 0,
+          "items": [],
+          "sellerInfo": {
+            "enabled": true
+          }
+        },
+        "iconsVersion": "1.75.0",
+        "version": "1.161.1",
+        "cartExtensions": [],
+        "alerts": [],
+        "ads": {
+          "banners": [
+            {
+              "categories": [
+                "CO"
+              ],
+              "limit": 1,
+              "slot": "desk_PDP_Ads",
+              "consumer": "desktop"
+            },
+            {
+              "categories": [
+                "CO"
+              ],
+              "limit": 1,
+              "slot": "desk_hypertop_Ads_small",
+              "consumer": "desktop"
+            }
+          ],
+          "brands": [],
+          "channelCode": "WEB",
+          "partnerId": "71816",
+          "showcases": [
+            {
+              "channel": "WEB",
+              "limit": 10,
+              "slot": "pdp_ads",
+              "page": "produto",
+              "consumer": "desktop"
+            },
+            {
+              "limit": 1,
+              "slot": "desktop_top_pdp",
+              "hasEntity": true,
+              "page": "produto",
+              "channel": "WEB",
+              "entities": [
+                "Colchão",
+                "CO"
+              ],
+              "placement": "SITE_PDP_2",
+              "consumer": "desktop"
+            }
+          ]
+        }
+      },
+      "manifest": {
+        "useTypescript": true,
+        "useComponentErrorBoundary": true
+      },
+      "route": {
+        "id": "product",
+        "name": "produto",
+        "pathPattern": "/:slug/p/:productId/:categoryId/:subCategoryId/",
+        "pathAliases": {
+          "path0": "slug",
+          "path2": "productId",
+          "path3": "categoryId",
+          "path4": "subCategoryId"
+        },
+        "renderMethod": "SSR",
+        "query": {
+          "slug": "colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco",
+          "productId": "dde864kefe",
+          "categoryId": "CO",
+          "subCategoryId": "CCBC"
+        },
+        "deviceInfo": {
+          "vendor": null,
+          "model": null,
+          "type": null,
+          "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+          "browser": {
+            "name": "Chrome",
+            "version": "144.0.0.0",
+            "major": "144"
+          },
+          "engine": {
+            "name": "Blink",
+            "version": "144.0.0.0"
+          },
+          "os": {
+            "name": "Windows",
+            "version": "10"
+          },
+          "cpu": {
+            "architecture": "amd64"
+          },
+          "platform": null
+        }
+      },
+      "isServerRequest": true,
+      "clientConfig": {
+        "promoter": {
+          "partnerId": 3440,
+          "onelinkTemplateId": "589508454",
+          "onelinkBaseUrl": "https://magazineluiza.onelink.me",
+          "onelinkProductUrl": "https://www.magazineluiza.com.br",
+          "onelinkOfferConfigs": {
+            "isRetargeting": true,
+            "pid": "magazinevoce",
+            "productQueries": {
+              "utmSource": "divulgador",
+              "utmMedium": "magalu"
+            }
+          }
+        },
+        "logLevel": "error",
+        "environment": "production",
+        "cookieDomain": ".magazineluiza.com.br",
+        "siteDomain": "https://m.magazineluiza.com.br",
+        "platform": {
+          "desktop": {
+            "baseUrl": "https://www.magazineluiza.com.br",
+            "cart": {
+              "host": "https://sacola.magazineluiza.com.br"
+            }
+          },
+          "mobile": {
+            "baseUrl": "https://m.magazineluiza.com.br",
+            "cart": {
+              "host": "https://sacolamobile.magazineluiza.com.br"
+            }
+          }
+        },
+        "channel": {
+          "mobile": {
+            "id": "9",
+            "name": "mixer.magazineluiza.com.br"
+          },
+          "desktop": {
+            "id": "45",
+            "name": "mixer-desk.magazineluiza.com.br"
+          }
+        },
+        "otelEnabled": false,
+        "datasource": {
+          "graphql": {
+            "host": "https://maga-graphql.magazineluiza.com.br",
+            "timeout": 8000
+          }
+        },
+        "shipping": {
+          "timeout": 5000
+        },
+        "showcase": {
+          "timeout": 5000
+        },
+        "review": {
+          "mediaApi": "https://eufrazino-media-api-mgc.mglu.io",
+          "timeout": 8000
+        },
+        "video": {
+          "host": "https://ugc-content-prd.magalu.com"
+        }
+      },
+      "appConfig": {
+        "assetPrefix": "https://wx.mlcdn.com.br/mixer-web/static/v1.161.1"
+      },
+      "componentsList": [
+        "Preconnect",
+        "GoogleTagManager",
+        "Script",
+        "AllIn",
+        "Criteo",
+        "Bing",
+        "TikTok",
+        "RTBHouse",
+        "Stewie",
+        "SpotifyAdAnalytics",
+        "Hotjar",
+        "Vwo",
+        "Loader",
+        "StateLoader",
+        "AdsBanner",
+        "Header",
+        "EventPageViewDispatcher",
+        "PageLoading",
+        "Showcase",
+        "JsonLD",
+        "Row",
+        "AdsProduct",
+        "MediaGallery",
+        "SocialShare",
+        "FavoriteButton",
+        "ClosenessTag",
+        "Rating",
+        "Heading",
+        "AlertAttributeMessage",
+        "AttributeSelector",
+        "OfferTimerTag",
+        "SellAndDeliverInfo",
+        "SellerDetail",
+        "ProductPrice",
+        "ProductTags",
+        "ImportTaxes",
+        "CouponCode",
+        "PaymentMethodCards",
+        "TabInstallments",
+        "Shipping",
+        "LetMeKnow",
+        "ServicesBuyButton",
+        "BuyButtons",
+        "AlertList",
+        "CardanCarInformation",
+        "BuyBox",
+        "BuyBoxBottomsheet",
+        "SellerInfo",
+        "Benefits",
+        "ReportButton",
+        "SummaryFactsheet",
+        "ReviewSummary",
+        "AdsShowcase",
+        "ProductRichContent",
+        "TabProductDetail",
+        "EmptyReviewButton",
+        "ReviewStats",
+        "ProductReviewMediaCarousel",
+        "ReviewListing",
+        "ReviewSeeMore",
+        "QuestionsList",
+        "QuestionForm",
+        "QuestionConfirm",
+        "QuestionFeedback",
+        "Divider",
+        "QuestionSeeMore",
+        "Faq",
+        "LuContent",
+        "TermList",
+        "Gatekeeper",
+        "BackToTop",
+        "Footer",
+        "Breadcrumb"
+      ],
+      "errors": null
+    },
+    "__N_SSP": true
+  },
+  "page": "/[path0]/p/[path2]/[path3]/[path4]",
+  "query": {
+    "path0": "colchao-solteiro-mola-ensacada-probel-versailles-ultra-gel-88x188x30cm-branco",
+    "path2": "dde864kefe",
+    "path3": "co",
+    "path4": "ccbc"
+  },
+  "buildId": "Ra1iaIMIiaoVcU2j2oSk1",
+  "assetPrefix": "https://m.magazineluiza.com.br/mixer-web/static/v1.161.1",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

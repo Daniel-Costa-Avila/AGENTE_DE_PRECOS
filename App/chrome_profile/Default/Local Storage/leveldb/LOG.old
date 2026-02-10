@@ -1,0 +1,6 @@
+2026/02/09-10:14:44.896 32e8 Reusing MANIFEST C:\Users\daniel.avila\Desktop\price_agent\App\chrome_profile\Default\Local Storage\leveldb/MANIFEST-000001
+2026/02/09-10:14:44.902 32e8 Recovering log #7
+2026/02/09-10:14:44.906 32e8 Reusing old log C:\Users\daniel.avila\Desktop\price_agent\App\chrome_profile\Default\Local Storage\leveldb/000007.log 
+2026/02/09-10:15:04.181 478c Level-0 table #11: started
+2026/02/09-10:15:04.192 478c Level-0 table #11: 28627 bytes OK
+2026/02/09-10:15:04.195 478c Delete type=0 #7

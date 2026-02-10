@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Price Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Price Agent</h1>
+
+    <p>Fila: <b>{{ counts.QUEUED }}</b> | Rodando: <b>{{ counts.RUNNING }}</b> | Concluídos: <b>{{ counts.DONE }}</b> | Falhas: <b>{{ counts.FAILED }}</b></p>
+
+    <form method="post" action="/run" enctype="multipart/form-data">
+        <label>Planilha (opcional):</label>
+        <input type="file" name="file" accept=".xlsx">
+        <button type="submit">Executar Agente</button>
+    </form>
+
+    <p style="font-size: 0.9em;">
+        {% if has_default_input %}
+            Se não enviar arquivo, usaremos o <b>input.xlsx</b> padrão.
+        {% else %}
+            Envie um arquivo .xlsx para iniciar a execução.
+        {% endif %}
+    </p>
+    <p style="font-size: 0.9em;">Limite atual: 5 execuções simultâneas.</p>
+
+    <div class="footer">
+        Interface simples — Price Agent
+    </div>
+</div>
+
+</body>
+</html>
