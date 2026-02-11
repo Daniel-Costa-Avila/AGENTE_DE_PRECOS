@@ -146,6 +146,11 @@ def _job_payload(job: Job) -> dict:
 
 # ---------------- ROUTES ----------------
 
+@app.get("/api/health")
+def api_health():
+    return JSONResponse({"status": "ok"})
+
+
 @app.get("/", response_class=HTMLResponse)
 def index(request: Request):
     counts = _counts()

@@ -112,6 +112,25 @@ if "job_id" not in st.session_state:
     st.session_state.job_id = None
 
 
+def _api_health():
+    try:
+        resp = requests.get(f"{API_BASE}/api/health", timeout=3)
+    except requests.RequestException as exc:
+        return False, str(exc)
+    if resp.ok:
+        return True, None
+    return False, f"HTTP {resp.status_code}"
+
+
+def _show_api_down(error: str | None = None):
+    st.error(
+        "API indisponivel. Inicie o servidor com: "
+        "uvicorn ui.server:app --host 0.0.0.0 --port 8000"
+    )
+    if error:
+        st.caption(f"Detalhe: {error}")
+
+
 def _start_job(file_bytes: bytes | None):
     files = None
     if file_bytes is not None:
@@ -122,7 +141,11 @@ def _start_job(file_bytes: bytes | None):
                 "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             )
         }
-    resp = requests.post(f"{API_BASE}/api/run", files=files, timeout=30)
+    try:
+        resp = requests.post(f"{API_BASE}/api/run", files=files, timeout=30)
+    except requests.RequestException as exc:
+        _show_api_down(str(exc))
+        return None
     if resp.status_code == 429:
         st.error("Limite de execuções simultâneas atingido. Tente novamente.")
         return None
@@ -134,11 +157,24 @@ def _start_job(file_bytes: bytes | None):
 
 
 def _get_status(job_id: str):
-    resp = requests.get(f"{API_BASE}/api/status/{job_id}", timeout=30)
+    try:
+        resp = requests.get(f"{API_BASE}/api/status/{job_id}", timeout=30)
+    except requests.RequestException as exc:
+        _show_api_down(str(exc))
+        return None
     if not resp.ok:
         return None
     return resp.json()
 
+
+# ---------------- STATUS API ----------------
+
+st.subheader("Status da API")
+api_ok, api_err = _api_health()
+if api_ok:
+    st.success("API online.")
+else:
+    _show_api_down(api_err)
 
 if st.button("🚀 Processar automaticamente"):
     if uploaded_bytes is None and not DEFAULT_INPUT.exists():
