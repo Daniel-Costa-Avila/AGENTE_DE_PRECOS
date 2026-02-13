@@ -70,7 +70,17 @@ def _run_job(job: Job) -> None:
         "--output",
         str(job.output_path),
     ]
-    subprocess.run(cmd, cwd=str(BASE_DIR), check=True, env=env)
+    proc = subprocess.run(
+        cmd,
+        cwd=str(BASE_DIR),
+        env=env,
+        text=True,
+        capture_output=True,
+    )
+    if proc.returncode != 0:
+        err = (proc.stderr or proc.stdout or "").strip()
+        err_tail = err[-2000:] if err else "sem detalhes"
+        raise RuntimeError(f"App.main falhou (exit={proc.returncode}): {err_tail}")
 
 
 def _worker() -> None:
@@ -344,4 +354,3 @@ def download(job_id: str):
         filename=f"output_{job_id}.xlsx",
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     )
-

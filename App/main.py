@@ -133,22 +133,33 @@ def _get_io_paths() -> tuple[Path, Path]:
     return Path(input_file), Path(output_file)
 
 
+def _should_headless() -> bool:
+    env_headless = os.getenv("HEADLESS")
+    if env_headless is not None:
+        return env_headless.strip().lower() not in {"0", "false", "no", "off"}
+
+    if sys.platform.startswith("linux") and not os.getenv("DISPLAY"):
+        return True
+
+    return False
+
+
 # ---------------- MAIN ----------------
 
 def main():
     input_path, output_path = _get_io_paths()
     if not input_path.exists():
-        raise FileNotFoundError(f"Arquivo {input_path} não encontrado.")
+        raise FileNotFoundError(f"Arquivo {input_path} nao encontrado.")
 
     wb_in = load_workbook(input_path)
     ws_in = wb_in.active
 
     col_id = find_col(ws_in, {
         "id_produto", "produto", "id", "sku", "codigo",
-        "codigo_produto", "código", "product_id"
+        "codigo_produto", "codigo", "product_id"
     }) or 1
 
-    col_titulo = find_col(ws_in, {"titulo", "título", "nome", "descricao", "descrição"})
+    col_titulo = find_col(ws_in, {"titulo", "titulo", "nome", "descricao", "descricao"})
     col_link = find_col(ws_in, {"link", "url", "href"})
 
     if col_link is None:
@@ -158,7 +169,7 @@ def main():
                 break
 
     if col_link is None:
-        raise RuntimeError("Não foi possível localizar a coluna de LINK.")
+        raise RuntimeError("Nao foi possivel localizar a coluna de LINK.")
 
     wb_out = Workbook()
     ws_out = wb_out.active
@@ -168,8 +179,8 @@ def main():
         "id_produto", "titulo", "avista", "pix", "prazo", "status", "link"
     ])
 
-    # -------- Selenium (para canais que usam driver) --------
-    driver = get_driver(headless=False)
+    headless = _should_headless()
+    driver = None
 
     # -------- Processar produtos --------
     max_rows, only_ids = _get_run_filters()
@@ -201,18 +212,19 @@ def main():
                     "avista": None,
                     "pix": None,
                     "prazo": None,
-                    "status": "CANAL NÃO SUPORTADO"
+                    "status": "CANAL NAO SUPORTADO"
                 }
             else:
                 try:
-                    # 🔑 AJUSTE CRÍTICO AQUI
                     if coletor is coletar_magalu:
-                        result = coletor(link)
+                        result = coletor(link, headless=headless)
                     else:
+                        if driver is None:
+                            driver = get_driver(headless=headless)
                         result = coletor(driver, link)
 
                     if not isinstance(result, dict):
-                        raise ValueError("Coletor não retornou dict")
+                        raise ValueError("Coletor nao retornou dict")
 
                 except Exception as e:
                     result = {
@@ -234,15 +246,17 @@ def main():
         processed += 1
 
     wb_out.save(output_path)
-    driver.quit()
+    if driver is not None:
+        driver.quit()
+
     total = ws_in.max_row - 1
     if max_rows is not None or only_ids:
         print(
-            f"OK — {processed} produtos processados (filtro aplicado). "
+            f"OK - {processed} produtos processados (filtro aplicado). "
             f"Arquivo gerado: {output_path}"
         )
     else:
-        print(f"OK — {total} produtos processados. Arquivo gerado: {output_path}")
+        print(f"OK - {total} produtos processados. Arquivo gerado: {output_path}")
 
 
 # ---------------- STATUS ----------------

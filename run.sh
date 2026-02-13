@@ -50,6 +50,13 @@ else
   API_BASE="http://127.0.0.1:${API_PORT}"
 fi
 
+if [ "${SKIP_PLAYWRIGHT_INSTALL:-0}" != "1" ]; then
+  echo "Verificando browser do Playwright (chromium)..."
+  if ! "$PY" -m playwright install chromium >/tmp/playwright-install.log 2>&1; then
+    echo "AVISO: falha ao instalar Chromium do Playwright. Veja /tmp/playwright-install.log"
+  fi
+fi
+
 if [ -z "${API_TOKEN:-}" ]; then
   if command -v python3 >/dev/null 2>&1; then
     API_TOKEN="$(python3 - <<'PY'

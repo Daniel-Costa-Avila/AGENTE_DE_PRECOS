@@ -294,4 +294,5 @@ if job_id:
             st.error("Erro ao baixar o arquivo de saida.")
     elif data and data.get("status") == "FAILED":
         st.error("Falha na execucao do job.")
-
+        if data.get("error"):
+            st.code(str(data.get("error")))
