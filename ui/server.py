@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import secrets
 import shutil
 import subprocess
 import time
@@ -22,6 +23,7 @@ from openpyxl import load_workbook
 BASE_DIR = Path(__file__).resolve().parent.parent
 RUNS_DIR = BASE_DIR / "runs"
 DEFAULT_INPUT = BASE_DIR / "input.xlsx"
+API_TOKEN = os.getenv("API_TOKEN", "").strip()
 
 # ---------------- APP ----------------
 
@@ -96,6 +98,45 @@ def startup() -> None:
     RUNS_DIR.mkdir(exist_ok=True)
     worker = Thread(target=_worker, daemon=True)
     worker.start()
+
+
+# ---------------- SECURITY ----------------
+
+def _is_public_path(path: str) -> bool:
+    if path == "/api/health":
+        return True
+    if path.startswith("/static"):
+        return True
+    if path == "/favicon.ico":
+        return True
+    return False
+
+
+def _extract_token(request: Request) -> str:
+    auth = request.headers.get("authorization", "")
+    if auth.lower().startswith("bearer "):
+        return auth[7:].strip()
+
+    query_token = request.query_params.get("api_token")
+    if query_token:
+        return query_token.strip()
+
+    return ""
+
+
+@app.middleware("http")
+async def token_auth_middleware(request: Request, call_next):
+    if not API_TOKEN or _is_public_path(request.url.path):
+        return await call_next(request)
+
+    provided_token = _extract_token(request)
+    if provided_token and secrets.compare_digest(provided_token, API_TOKEN):
+        return await call_next(request)
+
+    if request.url.path.startswith("/api/"):
+        return JSONResponse({"error": "Nao autorizado."}, status_code=401)
+
+    return HTMLResponse("Acesso nao autorizado.", status_code=401)
 
 
 # ---------------- HELPERS ----------------
@@ -303,3 +344,4 @@ def download(job_id: str):
         filename=f"output_{job_id}.xlsx",
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     )
+

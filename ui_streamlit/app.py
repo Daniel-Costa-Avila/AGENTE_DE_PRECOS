@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hmac
 import os
 import time
 from io import BytesIO
@@ -15,31 +16,78 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_FILE = BASE_DIR / "modelo_input.xlsx"
 DEFAULT_INPUT = BASE_DIR / "input.xlsx"
 
-API_BASE = os.getenv("API_BASE", "http://localhost:8000")
+API_BASE = os.getenv("API_BASE", "http://127.0.0.1:8000").rstrip("/")
+API_TOKEN = os.getenv("API_TOKEN", "").strip()
+
+APP_AUTH_USER = os.getenv("APP_AUTH_USER", "").strip()
+APP_AUTH_PASSWORD = os.getenv("APP_AUTH_PASSWORD", "").strip()
+AUTH_ENABLED = bool(APP_AUTH_USER and APP_AUTH_PASSWORD)
 
 st.set_page_config(
     page_title="Price Monitor",
     layout="wide",
 )
 
+
+def _api_headers() -> dict[str, str]:
+    if API_TOKEN:
+        return {"Authorization": f"Bearer {API_TOKEN}"}
+    return {}
+
+
+def _require_login() -> None:
+    if not AUTH_ENABLED:
+        st.warning(
+            "Acesso sem login. Defina APP_AUTH_USER e APP_AUTH_PASSWORD para proteger acesso remoto."
+        )
+        return
+
+    if st.session_state.get("app_authenticated"):
+        with st.sidebar:
+            st.caption("Sessao autenticada")
+            if st.button("Sair"):
+                st.session_state.app_authenticated = False
+                st.rerun()
+        return
+
+    st.title("Login")
+    st.caption("Acesso remoto protegido")
+    with st.form("login_form"):
+        user = st.text_input("Usuario")
+        password = st.text_input("Senha", type="password")
+        submit = st.form_submit_button("Entrar")
+
+    if submit:
+        user_ok = hmac.compare_digest(user, APP_AUTH_USER)
+        pass_ok = hmac.compare_digest(password, APP_AUTH_PASSWORD)
+        if user_ok and pass_ok:
+            st.session_state.app_authenticated = True
+            st.rerun()
+        st.error("Credenciais invalidas.")
+
+    st.stop()
+
+
+_require_login()
+
 # ---------------- HEADER ----------------
 
-st.title("📊 Price Monitor — Price Agent")
-st.caption("Coleta automática de preços a partir de planilhas")
+st.title("Price Monitor - Price Agent")
+st.caption("Coleta automatica de precos a partir de planilhas")
 
 # ---------------- MODELO ----------------
 
-st.subheader("📥 Modelo de planilha")
+st.subheader("Modelo de planilha")
 st.markdown(
     """
-    Utilize **exclusivamente** o modelo oficial para preencher os produtos.
-    Não altere o nome das colunas.
+    Utilize exclusivamente o modelo oficial para preencher os produtos.
+    Nao altere o nome das colunas.
     """
 )
 
 with open(MODEL_FILE, "rb") as f:
     st.download_button(
-        label="📥 Baixar modelo de planilha",
+        label="Baixar modelo de planilha",
         data=f,
         file_name="modelo_input.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -49,33 +97,29 @@ st.divider()
 
 # ---------------- MANUAL ----------------
 
-st.subheader("📘 Como utilizar o sistema")
+st.subheader("Como utilizar o sistema")
 
 with st.expander("Clique aqui para ver o passo a passo"):
     st.markdown(
         """
         ### 1. Baixe o modelo de planilha
-        Utilize o botão acima para baixar o arquivo padrão.
+        Utilize o botao acima para baixar o arquivo padrao.
 
         ### 2. Preencha a planilha
-        - **id_produto**: código interno (obrigatório)
+        - **id_produto**: codigo interno (obrigatorio)
         - **titulo**: nome do produto (opcional)
-        - **link**: URL do produto (obrigatório)
+        - **link**: URL do produto (obrigatorio)
 
-        ⚠️ Não altere o nome das colunas.
+        Nao altere o nome das colunas.
 
         ### 3. Envie a planilha
-        Faça o upload do arquivo preenchido no campo abaixo.
+        Faca o upload do arquivo preenchido no campo abaixo.
 
-        ### 4. Processamento automático
+        ### 4. Processamento automatico
         Clique em **Processar automaticamente** e aguarde.
 
         ### 5. Resultado
-        Ao final, será possível visualizar e baixar o arquivo com os preços.
-
-        ---
-        **Regra de Ouro:**  
-        > Melhor nenhum dado do que um dado errado.
+        Ao final, sera possivel visualizar e baixar o arquivo com os precos.
         """
     )
 
@@ -83,7 +127,7 @@ st.divider()
 
 # ---------------- UPLOAD ----------------
 
-st.subheader("📤 Enviar planilha preenchida")
+st.subheader("Enviar planilha preenchida")
 
 uploaded = st.file_uploader(
     "Selecione o arquivo .xlsx",
@@ -91,7 +135,6 @@ uploaded = st.file_uploader(
 )
 
 uploaded_bytes: bytes | None = None
-df_input = None
 
 if uploaded:
     uploaded_bytes = uploaded.getbuffer().tobytes()
@@ -100,7 +143,7 @@ if uploaded:
     st.dataframe(df_input, use_container_width=True)
 else:
     if DEFAULT_INPUT.exists():
-        st.info("Nenhuma planilha enviada. Usaremos o input.xlsx padrão.")
+        st.info("Nenhuma planilha enviada. Usaremos o input.xlsx padrao.")
     else:
         st.warning("Envie uma planilha .xlsx para continuar.")
 
@@ -124,8 +167,7 @@ def _api_health():
 
 def _show_api_down(error: str | None = None):
     st.error(
-        "API indisponivel. Inicie o servidor com: "
-        "uvicorn ui.server:app --host 0.0.0.0 --port 8000"
+        "API indisponivel. Inicie com ./run.ps1 ou uvicorn ui.server:app --host 127.0.0.1 --port 8000"
     )
     if error:
         st.caption(f"Detalhe: {error}")
@@ -142,12 +184,20 @@ def _start_job(file_bytes: bytes | None):
             )
         }
     try:
-        resp = requests.post(f"{API_BASE}/api/run", files=files, timeout=30)
+        resp = requests.post(
+            f"{API_BASE}/api/run",
+            files=files,
+            headers=_api_headers(),
+            timeout=30,
+        )
     except requests.RequestException as exc:
         _show_api_down(str(exc))
         return None
+    if resp.status_code == 401:
+        st.error("Falha de autenticacao com API. Verifique API_TOKEN.")
+        return None
     if resp.status_code == 429:
-        st.error("Limite de execuções simultâneas atingido. Tente novamente.")
+        st.error("Limite de execucoes simultaneas atingido. Tente novamente.")
         return None
     if not resp.ok:
         st.error(f"Falha ao iniciar job: {resp.status_code}")
@@ -158,9 +208,16 @@ def _start_job(file_bytes: bytes | None):
 
 def _get_status(job_id: str):
     try:
-        resp = requests.get(f"{API_BASE}/api/status/{job_id}", timeout=30)
+        resp = requests.get(
+            f"{API_BASE}/api/status/{job_id}",
+            headers=_api_headers(),
+            timeout=30,
+        )
     except requests.RequestException as exc:
         _show_api_down(str(exc))
+        return None
+    if resp.status_code == 401:
+        st.error("Falha de autenticacao com API. Verifique API_TOKEN.")
         return None
     if not resp.ok:
         return None
@@ -176,7 +233,7 @@ if api_ok:
 else:
     _show_api_down(api_err)
 
-if st.button("🚀 Processar automaticamente"):
+if st.button("Processar automaticamente"):
     if uploaded_bytes is None and not DEFAULT_INPUT.exists():
         st.error("Envie uma planilha .xlsx para iniciar.")
     else:
@@ -189,12 +246,12 @@ job_id = st.session_state.job_id
 
 if job_id:
     st.divider()
-    st.subheader("📡 Status da execução")
+    st.subheader("Status da execucao")
 
     status_placeholder = st.empty()
     data = _get_status(job_id)
     if data is None:
-        status_placeholder.error("Não foi possível obter o status.")
+        status_placeholder.error("Nao foi possivel obter o status.")
     else:
         status_placeholder.info(f"Status: {data.get('status')}")
 
@@ -203,13 +260,13 @@ if job_id:
         if st.button("Atualizar status"):
             data = _get_status(job_id)
             if data is None:
-                status_placeholder.error("Não foi possível obter o status.")
+                status_placeholder.error("Nao foi possivel obter o status.")
             else:
                 status_placeholder.info(f"Status: {data.get('status')}")
 
     with col2:
-        if st.button("Acompanhar até concluir"):
-            with st.spinner("Aguardando conclusão..."):
+        if st.button("Acompanhar ate concluir"):
+            with st.spinner("Aguardando conclusao..."):
                 for _ in range(240):
                     data = _get_status(job_id)
                     if data is None:
@@ -220,20 +277,21 @@ if job_id:
                     time.sleep(5)
 
     if data and data.get("status") == "DONE":
-        st.success("Processamento concluído com sucesso!")
+        st.success("Processamento concluido com sucesso!")
         download_url = f"{API_BASE}/download/{job_id}"
-        r = requests.get(download_url, timeout=60)
+        r = requests.get(download_url, headers=_api_headers(), timeout=60)
         if r.ok:
             st.download_button(
-                "⬇️ Baixar resultados.xlsx",
+                "Baixar resultados.xlsx",
                 data=r.content,
                 file_name=f"resultados_{job_id}.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             )
             df_out = pd.read_excel(BytesIO(r.content))
-            st.subheader("📊 Prévia do resultado")
+            st.subheader("Previa do resultado")
             st.dataframe(df_out, use_container_width=True)
         else:
-            st.error("Erro ao baixar o arquivo de saída.")
+            st.error("Erro ao baixar o arquivo de saida.")
     elif data and data.get("status") == "FAILED":
-        st.error("Falha na execução do job.")
+        st.error("Falha na execucao do job.")
+
